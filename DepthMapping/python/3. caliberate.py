@@ -10,14 +10,15 @@ CHESSBOARD_SIZE = (7, 7)
 CHESSBOARD_OPTIONS = (cv2.CALIB_CB_ADAPTIVE_THRESH |cv2.CALIB_CB_NORMALIZE_IMAGE | cv2.CALIB_CB_FAST_CHECK)
 OBJECT_POINT_ZERO = np.zeros((CHESSBOARD_SIZE[0] * CHESSBOARD_SIZE[1], 3),np.float32)
 OBJECT_POINT_ZERO[:, :2] = np.mgrid[0:CHESSBOARD_SIZE[0],0:CHESSBOARD_SIZE[1]].T.reshape(-1, 2)
-OPTIMIZE_ALPHA = 0.25
+OPTIMIZE_ALPHA = 0
 TERMINATION_CRITERIA = (cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
+
 
 width = 640
 height = 360
 leftImageDir = "capture/left"
 rightImageDir = "capture/right"
-outputFile = "outputFile"
+outputFile = "outputFile2"
 
 
 def getMatchingObjectAndImagePoints(requestedFilenames, allFilenames, objectPoints, imagePoints):
@@ -93,16 +94,42 @@ objectPoints = leftObjectPoints
 
 print("Calibrating left camera...")
 _, leftCameraMatrix, leftDistortionCoefficients, _, _ = cv2.calibrateCamera(objectPoints, leftImagePoints, imageSize, None, None)
-newLeftCamMatrix, leftROI = cv2.getOptimalNewCameraMatrix(leftCameraMatrix, leftDistortionCoefficients, (width, height), 1, (width, height))
 
 print("Calibrating right camera...")
 _, rightCameraMatrix, rightDistortionCoefficients, _, _ = cv2.calibrateCamera(objectPoints, rightImagePoints, imageSize, None, None)
-newRightCamMatrix, rightROI = cv2.getOptimalNewCameraMatrix(rightCameraMatrix, rightDistortionCoefficients, (width, height), 1, (width, height))
 
+(_, _, _, _, _, rotationMatrix, translationVector, _, _) = cv2.stereoCalibrate(objectPoints, leftImagePoints, rightImagePoints,
+                                                                               leftCameraMatrix, leftDistortionCoefficients,
+                                                                               rightCameraMatrix, rightDistortionCoefficients,
+                                                                               imageSize, None, None, None, None,
+                                                                               cv2.CALIB_FIX_INTRINSIC, TERMINATION_CRITERIA)
+
+print("Rectifying cameras...")
+(leftRectification, rightRectification, leftProjection, rightProjection, disparityToDepthMap, leftROI, rightROI) = cv2.stereoRectify(leftCameraMatrix,
+                                                                                                                                      leftDistortionCoefficients,
+                                                                                                                                      rightCameraMatrix,
+                                                                                                                                      rightDistortionCoefficients,
+                                                                                                                                      imageSize,
+                                                                                                                                      rotationMatrix,
+                                                                                                                                      translationVector,
+                                                                                                                                      None, None, None, None, None,
+                                                                                                                                      cv2.CALIB_ZERO_DISPARITY,
+                                                                                                                                      OPTIMIZE_ALPHA)
+print "Q matrix:", disparityToDepthMap
 print("Saving calibration...")
+leftMapX, leftMapY = cv2.initUndistortRectifyMap(leftCameraMatrix, leftDistortionCoefficients, leftRectification,leftProjection, imageSize, cv2.CV_32FC1)
+rightMapX, rightMapY = cv2.initUndistortRectifyMap(rightCameraMatrix, rightDistortionCoefficients, rightRectification,rightProjection, imageSize, cv2.CV_32FC1)
 
-np.savez_compressed(outputFile, imageSize = imageSize, leftCameraMatrix = leftCameraMatrix, leftDistortionCoefficients = leftDistortionCoefficients,
-                    newLeftCamMatrix = newLeftCamMatrix, leftROI = leftROI, rightCameraMatrix = rightCameraMatrix, rightDistortionCoefficients = rightDistortionCoefficients,
-                    newRightCamMatrix = newRightCamMatrix, rightROI = rightROI)
+np.savez_compressed(outputFile,
+                    imageSize=imageSize,
+                    leftMapX=leftMapX,
+                    leftMapY=leftMapY,
+                    rightMapX=rightMapX,
+                    rightMapY=rightMapY,
+                    disparityToDepthMap=disparityToDepthMap,
+                    rightCameraMatrix=rightCameraMatrix,
+                    rightDistortionCoefficients=rightDistortionCoefficients,
+                    leftCameraMatrix=leftCameraMatrix,
+                    leftDistortionCoefficients=leftDistortionCoefficients)
 
 cv2.destroyAllWindows()
