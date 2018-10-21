@@ -1,0 +1,1830 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="09/13/18||14:20:18" using="Simscape Multibody Link Version 5.1" from="SolidWorks 25.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="robot" uid="robot" version="303">
+<AssemblyFile name="robot.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="joint motor-3" uid="joint motor-3" entityUid="joint motor" rigid="true">
+<Transform>
+<Rotation>-1.2764309180039444e-16 -4.4408920985006242e-16 1 -1 3.4637257632275029e-15 -1.2764309180039291e-16 -3.4637257632275029e-15 -1 -4.4408920985006281e-16</Rotation>
+<Translation>0.086435247104850219 0.59783952751743141 0.41468886548333028</Translation>
+</Transform>
+<Instance name="motor-1" uid="motor-1" entityUid="motor" rigid="true">
+<Transform>
+<Rotation>3.0057182829034765e-16 2.223318050334394e-16 -1 -0.97954073833177902 -0.20124597374465217 -3.300824143505028e-16 -0.20124597374465172 0.97954073833177913 1.4693077102962205e-16</Rotation>
+<Translation>0 0.030000000000000027 0</Translation>
+</Transform>
+<Instance name="motor body-1" uid="motor body-1" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-1" uid="motor axle-1" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.011249999999999982</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket motor-1" uid="c- bracket motor-1" entityUid="c- bracket motor*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1.0000000000000002 1.2402831433388425e-16 0 3.7917575607472783e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="joint motor-1" uid="joint motor-1" entityUid="joint motor" rigid="true">
+<Transform>
+<Rotation>0 -1.2402831433388119e-16 1 -1 -1.0598472330863207e-14 0 1.0598472330863207e-14 -1 -1.2402831433388119e-16</Rotation>
+<Translation>0.31143524710485021 0.17283952751743739 0.41468886548332623</Translation>
+</Transform>
+<Instance name="motor-1" uid="motor-1" entityUid="motor" rigid="true">
+<Transform>
+<Rotation>3.0057182829034804e-16 2.223318050334389e-16 -1 -0.97954073833177902 -0.20124597374465217 -3.300824143505028e-16 -0.20124597374465172 0.97954073833177913 1.469307710296224e-16</Rotation>
+<Translation>0 0.030000000000000027 0</Translation>
+</Transform>
+<Instance name="motor body-1" uid="motor body-1" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-1" uid="motor axle-1" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.01125000000000001</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket motor-1" uid="c- bracket motor-1" entityUid="c- bracket motor*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1.0000000000000002 1.2402831433388425e-16 0 3.7917575607472788e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="joint motor-4" uid="joint motor-4" entityUid="joint motor" rigid="true">
+<Transform>
+<Rotation>0 -3.3306690738754696e-16 1 -1 3.5001062044305547e-15 0 -3.5001062044305595e-15 -1 -2.2204460492503131e-16</Rotation>
+<Translation>0.31143524710485021 0.59783952751743141 0.41468886548333028</Translation>
+</Transform>
+<Instance name="motor-1" uid="motor-1" entityUid="motor" rigid="true">
+<Transform>
+<Rotation>3.005718282903441e-16 2.2233180503343575e-16 -1 -0.97954073833177913 -0.20124597374465172 -3.3916573120362102e-16 -0.20124597374465167 0.97954073833177913 1.5729419019259112e-16</Rotation>
+<Translation>0 0.030000000000000027 0</Translation>
+</Transform>
+<Instance name="motor body-1" uid="motor body-1" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-1" uid="motor axle-1" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.011249999999999982</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket motor-1" uid="c- bracket motor-1" entityUid="c- bracket motor*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1.0000000000000002 2.350506167964001e-16 0 2.6815345361221203e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="joint motor-2" uid="joint motor-2" entityUid="joint motor" rigid="true">
+<Transform>
+<Rotation>0 -3.9199899744899757e-16 1 -1 3.6548469428660377e-15 1.1102230246252445e-16 -3.4328023379410096e-15 -1.0000000000000002 -3.9199899744899718e-16</Rotation>
+<Translation>0.086435247104850232 0.17283952751743156 0.41468886548332884</Translation>
+</Transform>
+<Instance name="motor-1" uid="motor-1" entityUid="motor" rigid="true">
+<Transform>
+<Rotation>5.4041635590764332e-16 1.5826651964087821e-16 -0.99999999999999989 -0.97954073833177924 -0.20124597374465172 -3.3916573120362063e-16 -0.20124597374465167 0.97954073833177902 1.572941901925908e-16</Rotation>
+<Translation>0 0.030000000000000027 0</Translation>
+</Transform>
+<Instance name="motor body-1" uid="motor body-1" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-1" uid="motor axle-1" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.01125000000000001</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket motor-1" uid="c- bracket motor-1" entityUid="c- bracket motor*:*Default">
+<Transform>
+<Rotation>-1 0 0 1.9428902930939845e-16 1.0000000000000002 3.7917575607472778e-16 1.2215708874028392e-16 3.7917575607472778e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="body-1" uid="body-1" grounded="true" entityUid="body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15</Rotation>
+<Translation>0.19893524710485022 0.38533952751743145 0.42468886548332957</Translation>
+</Transform>
+</Instance>
+<Instance name="c- bracket leg-1" uid="c- bracket leg-1" entityUid="c- bracket leg*:*Default">
+<Transform>
+<Rotation>6.1311231003410127e-16 -0.011105261127304733 0.99993833468634175 1 -3.5425303402548908e-15 -6.5249327071623007e-16 3.5495579971654279e-15 0.99993833468634175 0.011105261127304733</Rotation>
+<Translation>0.31176840493866925 0.1728395275174317 0.35469071544273845</Translation>
+</Transform>
+</Instance>
+<Instance name="joint motor-5" uid="joint motor-5" entityUid="joint motor" rigid="true">
+<Transform>
+<Rotation>0.99606124844628274 -0.088667859699173596 5.6411554296740925e-16 -2.5360784452811039e-16 3.5131850231620353e-15 0.99999999999999989 -0.088667859699173596 -0.99606124844628274 3.4768605954163321e-15</Rotation>
+<Translation>0.082888532716885649 0.59783952751743197 0.34484641554547885</Translation>
+</Transform>
+<Instance name="motor-1" uid="motor-1" entityUid="motor" rigid="true">
+<Transform>
+<Rotation>3.0531133177191805e-16 2.1857515797307769e-16 -0.99999999999999989 -0.97954073833177902 -0.20124597374465172 -3.3306690738754696e-16 -0.20124597374465172 0.9795407383317789 1.5578689580241771e-16</Rotation>
+<Translation>0 0.030000000000000027 0</Translation>
+</Transform>
+<Instance name="motor body-1" uid="motor body-1" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-1" uid="motor axle-1" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.01125000000000001</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket motor-1" uid="c- bracket motor-1" entityUid="c- bracket motor*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 3.7917575607472709e-16 0 3.7917575607472709e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket leg-2" uid="c- bracket leg-2" entityUid="c- bracket leg*:*Default">
+<Transform>
+<Rotation>-3.3937053007656746e-16 -0.03907826154604141 -0.99923615300615465 -1 -3.6492913290634615e-15 4.8234693034414451e-16 -3.6653531083520086e-15 0.99923615300615465 -0.03907826154604141</Rotation>
+<Translation>0.31260759495123425 0.59783952751743141 0.35471178089314392</Translation>
+</Transform>
+</Instance>
+<Instance name="lowerleg-1" uid="lowerleg-1" entityUid="lowerleg*:*Default">
+<Transform>
+<Rotation>0.99606124844628285 0.067078856466449469 0.057986346313471819 -6.5052130349130256e-16 0.65397255003339672 -0.75651827724306586 -0.088667859699174068 0.75353853970315932 0.65139671463586435</Rotation>
+<Translation>0.051002546288802152 0.56960766157367515 -0.013348713526682918</Translation>
+</Transform>
+</Instance>
+<Instance name="c- bracket leg-10" uid="c- bracket leg-10" entityUid="c- bracket leg*:*Default">
+<Transform>
+<Rotation>0.99993833468634186 -0.0085532150217559055 -0.0070830316600478437 -1.2726955709955448e-15 0.63780865473136084 -0.77019485842854829 0.011105261127304979 0.77014736412102536 0.63776932406061293</Rotation>
+<Translation>0.3145859658296013 0.21427348197987162 0.10099230053301175</Translation>
+</Transform>
+</Instance>
+<Instance name="lowerleg-2" uid="lowerleg-2" entityUid="lowerleg*:*Default">
+<Transform>
+<Rotation>0.99962060500800176 0.020589463062918652 0.018295356083381543 -4.6020137720193405e-16 0.66423425394460822 -0.74752448514189129 -0.027543529974152159 0.74724087809583228 0.66398224679514795</Rotation>
+<Translation>0.074699985760540752 0.084038335624559021 -0.041211847168036803</Translation>
+</Transform>
+</Instance>
+<Instance name="lowerleg-4" uid="lowerleg-4" entityUid="lowerleg*:*Default">
+<Transform>
+<Rotation>0.99993833468634197 -0.0085532150217558674 -0.0070830316600476347 -1.1378554484699368e-15 0.63780865473136095 -0.7701948584285484 0.011105261127304809 0.77014736412102536 0.63776932406061304</Rotation>
+<Translation>0.31621107668373494 0.093089837580913062 -0.045335698649983082</Translation>
+</Transform>
+</Instance>
+<Instance name="lowerleg-3" uid="lowerleg-3" entityUid="lowerleg*:*Default">
+<Transform>
+<Rotation>0.99923615300615454 -0.020679450740991551 -0.033158269594653879 -1.1104398650596532e-15 0.84850933185926014 -0.52918041701082608 0.039078261546041736 0.52877620414009052 0.84786120055686964</Rotation>
+<Translation>0.32534542818116219 0.51726694781201543 0.029003753699785639</Translation>
+</Transform>
+</Instance>
+<Instance name="c- bracket leg-12" uid="c- bracket leg-12" entityUid="c- bracket leg*:*Default">
+<Transform>
+<Rotation>0.99606124844628285 0.067078856466449344 0.057986346313471784 -5.4817261840867094e-16 0.65397255003339638 -0.75651827724306631 -0.088667859699173943 0.75353853970315976 0.65139671463586402</Rotation>
+<Translation>0.063747529017427529 0.69386244608002046 0.12982360901691728</Translation>
+</Transform>
+</Instance>
+<Instance name="c- bracket leg-9" uid="c- bracket leg-9" entityUid="c- bracket leg*:*Default">
+<Transform>
+<Rotation>0.99962060500800176 0.020589463062918666 0.01829535608338153 -4.955463680249611e-16 0.66423425394460822 -0.74752448514189129 -0.027543529974152159 0.74724087809583228 0.66398224679514795</Rotation>
+<Translation>0.07861198374249527 0.21024284387403466 0.10076391967017145</Translation>
+</Transform>
+</Instance>
+<Instance name="joint motor-9" uid="joint motor-9" entityUid="joint motor" rigid="true">
+<Transform>
+<Rotation>-0.99923615300615465 0.033126118025341093 0.020730914838279005 1.2346352239178682e-15 0.53049736651809098 -0.84768658366012284 -0.039078261546041243 -0.84703908081147083 -0.53009214769943325</Rotation>
+<Translation>0.31980216547738383 0.68802407982550517 0.17074569103495091</Translation>
+</Transform>
+<Instance name="motor-1" uid="motor-1" entityUid="motor" rigid="true">
+<Transform>
+<Rotation>2.9143354396410364e-16 2.2898349882893829e-16 -1 -0.97954073833177913 -0.20124597374465172 -3.3155303602253213e-16 -0.20124597374465175 0.97954073833177913 1.6564883817178147e-16</Rotation>
+<Translation>0 0.029999999999999999 0</Translation>
+</Transform>
+<Instance name="motor body-1" uid="motor body-1" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-1" uid="motor axle-1" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.011250000000000038</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket motor-1" uid="c- bracket motor-1" entityUid="c- bracket motor*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1.0000000000000002 2.2204460492503131e-16 0 3.3306690738754696e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="joint motor-11" uid="joint motor-11" entityUid="joint motor" rigid="true">
+<Transform>
+<Rotation>0.99962060500800154 -0.026387661861383561 0.0078954002385117593 -7.1248345764884904e-16 0.28665171987470228 0.958034859226362 -0.027543529974151972 -0.95767138559861154 0.28654296564773407</Rotation>
+<Translation>0.080021297490224255 0.2215703198961429 0.15191128758099831</Translation>
+</Transform>
+<Instance name="motor-1" uid="motor-1" entityUid="motor" rigid="true">
+<Transform>
+<Rotation>3.0184188481996443e-16 2.203098814490545e-16 -1 -0.97954073833177902 -0.2012459737446522 -3.2612801348363973e-16 -0.2012459737446517 0.97954073833177913 1.457167719820518e-16</Rotation>
+<Translation>0 0.030000000000000027 0</Translation>
+</Transform>
+<Instance name="motor body-1" uid="motor body-1" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-1" uid="motor axle-1" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.011249999999999996</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket motor-1" uid="c- bracket motor-1" entityUid="c- bracket motor*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 3.8857805861880469e-16 0 3.8857805861880469e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="joint motor-12" uid="joint motor-12" entityUid="joint motor" rigid="true">
+<Transform>
+<Rotation>0.99606124844628308 -0.07234301107244541 0.051268685302086267 -4.9851615890883494e-16 0.57821047531796654 0.8158876431424682 -0.088667859699173471 -0.81267406442038215 0.57593304790993227</Rotation>
+<Translation>0.067930185043594118 0.69613530832148884 0.17680998714062082</Translation>
+</Transform>
+<Instance name="motor-1" uid="motor-1" entityUid="motor" rigid="true">
+<Transform>
+<Rotation>3.3306690738754696e-16 2.4980018054066022e-16 -1 -0.97954073833177913 -0.20124597374465181 -3.4694469519536142e-16 -0.20124597374465192 0.97954073833177924 1.6653345369377348e-16</Rotation>
+<Translation>0 0.029999999999999971 0</Translation>
+</Transform>
+<Instance name="motor body-1" uid="motor body-1" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-1" uid="motor axle-1" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.011250000000000003</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket motor-1" uid="c- bracket motor-1" entityUid="c- bracket motor*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 4.4408920985006252e-16 0 4.4408920985006252e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="joint motor-10" uid="joint motor-10" entityUid="joint motor" rigid="true">
+<Transform>
+<Rotation>-0.99993833468634175 0.010583769975934399 0.0033631291682205155 1.156926727270864e-15 0.30284107052220655 -0.95304107256978376 -0.011105261127304753 -0.95298230299311459 -0.30282239573260417</Rotation>
+<Translation>0.31401185627966977 0.2243225095061078 0.15268619054651042</Translation>
+</Transform>
+<Instance name="motor-1" uid="motor-1" entityUid="motor" rigid="true">
+<Transform>
+<Rotation>3.0010716134398763e-16 2.2204460492503131e-16 -1 -0.97954073833177902 -0.20124597374465222 -3.2786273695961654e-16 -0.2012459737446517 0.97954073833177913 1.4831885719601701e-16</Rotation>
+<Translation>0 0.030000000000000013 0</Translation>
+</Transform>
+<Instance name="motor body-1" uid="motor body-1" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-1" uid="motor axle-1" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.011249999999999982</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket motor-1" uid="c- bracket motor-1" entityUid="c- bracket motor*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1.0000000000000002 1.1102230246251565e-16 0 3.3306690738754696e-16 -0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket leg-11" uid="c- bracket leg-11" entityUid="c- bracket leg*:*Default">
+<Transform>
+<Rotation>0.99923615300615465 -0.020679450740991485 -0.033158269594653754 -1.1021999285487636e-15 0.84850933185926014 -0.52918041701082608 0.039078261546041597 0.52877620414009052 0.84786120055686975</Rotation>
+<Translation>0.32141633254037377 0.67848372086527486 0.1294712324864028</Translation>
+</Transform>
+</Instance>
+<Instance name="joint motor-8" uid="joint motor-8" entityUid="joint motor" rigid="true">
+<Transform>
+<Rotation>-0.99923615300615476 0.039078261546041403 -3.7659399033312599e-16 5.2893688643787841e-16 3.8880662353697833e-15 -1 -0.039078261546041403 -0.99923615300615476 -3.9057662816535923e-15</Rotation>
+<Translation>0.31299837756669457 0.59783952751743141 0.34471941936308259</Translation>
+</Transform>
+<Instance name="motor-1" uid="motor-1" entityUid="motor" rigid="true">
+<Transform>
+<Rotation>2.9837243786801082e-16 2.2204460492503131e-16 -1 -0.97954073833177913 -0.20124597374465172 -3.3306690738754696e-16 -0.2012459737446517 0.97954073833177913 1.5888097178692427e-16</Rotation>
+<Translation>0 0.030000000000000027 0</Translation>
+</Transform>
+<Instance name="motor body-1" uid="motor body-1" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-1" uid="motor axle-1" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.011249999999999982</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket motor-1" uid="c- bracket motor-1" entityUid="c- bracket motor*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 0 0 0 1.0000000000000002 3.7917575607472749e-16 0 3.7917575607472828e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="joint motor-7" uid="joint motor-7" entityUid="joint motor" rigid="true">
+<Transform>
+<Rotation>0.99962060500800165 -0.02754352997415184 2.9826006167587531e-16 -2.0208854506439847e-16 3.4944027901920581e-15 1 -0.02754352997415184 -0.99962060500800165 3.4875107993750202e-15</Rotation>
+<Translation>0.085333505905884288 0.17283952751743181 0.34470404128300908</Translation>
+</Transform>
+<Instance name="motor-1" uid="motor-1" entityUid="motor" rigid="true">
+<Transform>
+<Rotation>3.0184188481996443e-16 2.2377932840100812e-16 -1 -0.97954073833177924 -0.20124597374465167 -3.4000580129145419e-16 -0.2012459737446517 0.97954073833177902 1.5786657620079043e-16</Rotation>
+<Translation>0 0.029999999999999971 0</Translation>
+</Transform>
+<Instance name="motor body-1" uid="motor body-1" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-1" uid="motor axle-1" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.011249999999999996</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket motor-1" uid="c- bracket motor-1" entityUid="c- bracket motor*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 3.7917575607472709e-16 0 3.7917575607472591e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="upperleg-1" uid="upperleg-1" entityUid="upperleg*:*Default">
+<Transform>
+<Rotation>0.99962060500800154 0.026387661861383575 -0.0078954002385117576 -7.0202090668436392e-16 -0.28665171987470239 -0.95803485922636189 -0.027543529974151985 0.95767138559861142 -0.28654296564773418</Rotation>
+<Translation>0.0818684338205211 0.20150469950491373 0.21894828457290116</Translation>
+</Transform>
+</Instance>
+<Instance name="c- bracket leg-6" uid="c- bracket leg-6" entityUid="c- bracket leg*:*Default">
+<Transform>
+<Rotation>0.99606124844628297 0.072343011072445534 -0.051268685302086385 -4.7618159415563355e-16 -0.57821047531796688 -0.81588764314246764 -0.088667859699173623 0.81267406442038159 -0.57593304790993272</Rotation>
+<Translation>0.078058206593736454 0.61518584177697344 0.2905843561594742</Translation>
+</Transform>
+</Instance>
+<Instance name="c- bracket leg-5" uid="c- bracket leg-5" entityUid="c- bracket leg*:*Default">
+<Transform>
+<Rotation>0.99962060500800176 0.026387661861383617 -0.0078954002385115477 -4.9173989533080054e-16 -0.28665171987470245 -0.958034859226362 -0.027543529974151937 0.95767138559861142 -0.28654296564773424</Rotation>
+<Translation>0.083715570150817958 0.18143907911368456 0.28598528156480391</Translation>
+</Transform>
+</Instance>
+<Instance name="upperleg-2" uid="upperleg-2" entityUid="upperleg*:*Default">
+<Transform>
+<Rotation>-0.99923615300615465 0.03312611802534117 0.020730914838279272 1.0394788328704772e-15 0.53049736651809054 -0.84768658366012295 -0.039078261546041444 -0.84703908081147106 -0.5300921476994328</Rotation>
+<Translation>0.31748333721560995 0.65088926416923887 0.23003842669175389</Translation>
+</Transform>
+</Instance>
+<Instance name="upperleg-4" uid="upperleg-4" entityUid="upperleg*:*Default">
+<Transform>
+<Rotation>0.99606124844628297 0.072343011072445396 -0.051268685302086343 -4.891920202254596e-16 -0.57821047531796743 -0.81588764314246753 -0.088667859699173485 0.81267406442038148 -0.57593304790993305</Rotation>
+<Translation>0.072994195818665286 0.65566057504923114 0.2336971716500475</Translation>
+</Transform>
+</Instance>
+<Instance name="upperleg-3" uid="upperleg-3" entityUid="upperleg*:*Default">
+<Transform>
+<Rotation>-0.0033631291682203325 0.010583769975934821 -0.99993833468634152 0.95304107256978365 0.30284107052220688 1.463672932855431e-15 0.30282239573260461 -0.95298230299311437 -0.0111052611273051</Rotation>
+<Translation>0.31327099238135436 0.20312363456955329 0.21939495175602841</Translation>
+</Transform>
+</Instance>
+<Instance name="c- bracket leg-7" uid="c- bracket leg-7" entityUid="c- bracket leg*:*Default">
+<Transform>
+<Rotation>0.99923615300615465 -0.033126118025341149 0.020730914838279199 -1.0899484439996774e-15 -0.53049736651809054 -0.84768658366012295 0.039078261546041389 0.84703908081147106 -0.5300921476994328</Rotation>
+<Translation>0.31516450895383602 0.61375444851297267 0.28933116234855688</Translation>
+</Transform>
+</Instance>
+<Instance name="c- bracket leg-3" uid="c- bracket leg-3" entityUid="c- bracket leg*:*Default">
+<Transform>
+<Rotation>-2.7637972622779407e-16 0.027543529974151819 -0.99962060500800176 -1 -3.6179059512585491e-15 1.7679690107451062e-16 -3.6116637251150389e-15 0.99962060500800176 0.027543529974151819</Rotation>
+<Translation>0.085608941205625733 0.1728395275174317 0.35470024733308864</Translation>
+</Transform>
+</Instance>
+<Instance name="joint motor-6" uid="joint motor-6" entityUid="joint motor" rigid="true">
+<Transform>
+<Rotation>-0.99993833468634197 0.011105261127304753 -6.9600475127260619e-16 7.3676827561720285e-16 3.666558654588768e-15 -1 -0.011105261127304753 -0.99993833468634197 -3.6745145591903303e-15</Rotation>
+<Translation>0.31187945754994234 0.17283952751743173 0.34469133209587499</Translation>
+</Transform>
+<Instance name="motor-1" uid="motor-1" entityUid="motor" rigid="true">
+<Transform>
+<Rotation>2.9837243786801077e-16 2.2247828579402551e-16 -1 -0.97954073833177913 -0.2012459737446517 -3.3704081734874376e-16 -0.20124597374465167 0.97954073833177913 1.5788029253215489e-16</Rotation>
+<Translation>0 0.030000000000000027 0</Translation>
+</Transform>
+<Instance name="motor body-1" uid="motor body-1" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-1" uid="motor axle-1" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.011249999999999982</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket motor-1" uid="c- bracket motor-1" entityUid="c- bracket motor*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 0 0 0 1.0000000000000002 3.7917575607472788e-16 0 3.7917575607472985e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="c- bracket leg-8" uid="c- bracket leg-8" entityUid="c- bracket leg*:*Default">
+<Transform>
+<Rotation>0.99993833468634175 -0.010583769975934423 0.0033631291682203451 -1.3260182204653454e-15 -0.30284107052220649 -0.95304107256978376 0.011105261127304726 0.95298230299311459 -0.30282239573260411</Rotation>
+<Translation>0.3125301284830389 0.18192475963299884 0.28610371296554643</Translation>
+</Transform>
+</Instance>
+<Instance name="c- bracket leg-4" uid="c- bracket leg-4" entityUid="c- bracket leg*:*Default">
+<Transform>
+<Rotation>-4.0775880759839202e-16 0.088667859699173804 -0.99606124844628297 -1 -3.6372323377457721e-15 0 -3.6153170727399729e-15 0.99606124844628297 0.088667859699173804</Rotation>
+<Translation>0.083775211313877218 0.59783952751743175 0.3548070280299418</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.099999999999999978 -0.00500000000000006 0.19999999999999993</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-1</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.012500000000000011 -0.0050000000000000044 0.012500000000000011</Position>
+<Axis>1 0 1.2764309180039424e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.125 -0.0050000000000000044 0.22499999999999992</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-1</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.012500000000000011</Position>
+<Axis>0 2.5514744174084363e-16 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident34">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-1</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1.0000000000000002 2.5514744174084358e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident36">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.125 -0.0050000000000000044 -0.22499999999999987</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-4</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.012500000000000011</Position>
+<Axis>0 1.4412513927832773e-16 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident37">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.099999999999999978 -0.0050000000000000044 -0.22499999999999987</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-4</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.012499999999999956 -0.0050000000000000044 0.012500000000000011</Position>
+<Axis>1 0 1.2764309180039158e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-4</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1.0000000000000002 1.4412513927832768e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.10000000000000001 -0.0050000000000000044 -0.22499999999999987</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-3</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.012499999999999956 -0.0050000000000000044 0.012500000000000011</Position>
+<Axis>1 0 1.2764309180039456e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident40">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.125 -0.0050000000000000044 -0.22499999999999987</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-3</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 0.012499999999999997</Position>
+<Axis>0 -2.5514744174084354e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-3</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1.0000000000000002 2.5514744174084349e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident42">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.125 -0.0050000000000000044 0.22499999999999992</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-2</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 0.012500000000000011</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-2</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident44">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.10000000000000001 -0.0050000000000000044 0.22499999999999992</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-2</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 -0.0050000000000000044 0.012499999999999997</Position>
+<Axis>-1 0 -1.3877787807814464e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident45">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>joint motor-3</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.035000000000000031 0.029999999999999971 0</Position>
+<Axis>1 0 -3.0760239554583448e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>c- bracket leg-4</Uid>
+</InstancePath>
+<Position>-0.035000000000000031 0.029999999999999971 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident47">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>joint motor-2</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.035000000000000003 0.029999999999999971 0</Position>
+<Axis>1 0 -2.9646760926808445e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>c- bracket leg-3</Uid>
+</InstancePath>
+<Position>-0.035000000000000003 0.030000000000000027 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>joint motor-1</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.034999999999999976 0.030000000000000027 0</Position>
+<Axis>1 0 -3.0760239554583482e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>c- bracket leg-1</Uid>
+</InstancePath>
+<Position>0.035000000000000031 0.029999999999999971 0</Position>
+<Axis>1 0 -2.964676092680844e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident49">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>joint motor-4</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.035000000000000031 0.029999999999999971 0</Position>
+<Axis>1 0 -3.0760239554583748e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>c- bracket leg-2</Uid>
+</InstancePath>
+<Position>-0.035000000000000031 0.030000000000000027 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident50">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-5</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.012499999999999997 -0.0050000000000000044 0.012499999999999956</Position>
+<Axis>1 0 1.27643091800394e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-4</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 0.012499999999999997</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident51">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-5</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 0.012499999999999956</Position>
+<Axis>0 -2.5514744174084235e-16 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-4</Uid>
+</InstancePath>
+<Position>0.012500000000000067 -0.0050000000000000044 0.012499999999999963</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident52">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-5</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 -0.0049999999999999489 0</Position>
+<Axis>0 -1.0000000000000002 2.5514744174084235e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-4</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 -0.0050000000000000044 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident53">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-3</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 0.012500000000000011</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-7</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.012499999999999997 -0.0049999999999999489 0.012499999999999983</Position>
+<Axis>1 0 1.3877787807814472e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident54">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-3</Uid>
+</InstancePath>
+<Position>0.012499999999999983 -0.0050000000000000044 0.012499999999999969</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-7</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 0.00500000000000006 0.012500000000000011</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident55">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-3</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-7</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 -0.0049999999999999489 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-1</Uid>
+</InstancePath>
+<Position>-0.012499999999999983 -0.0050000000000000044 0.012499999999999956</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-6</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 0.0049999999999999489 -0.012500000000000011</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident58">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 0.012500000000000067</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-6</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.012500000000000011 -0.0049999999999999489 0.012499999999999983</Position>
+<Axis>1 0 1.3877787807814472e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident59">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-1</Uid>
+</InstancePath>
+<Position>0 -0.00500000000000006 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-6</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident60">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-2</Uid>
+</InstancePath>
+<Position>-0.012500000000000067 -0.0050000000000000044 0.012499999999999956</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-8</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 0.012500000000000067</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident61">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-2</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.012500000000000067</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-8</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.012500000000000011 -0.0050000000000000044 0.012499999999999956</Position>
+<Axis>1 0 1.3877787807814469e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident62">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-2</Uid>
+</InstancePath>
+<Position>0 -0.0049999999999999489 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-8</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident63">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>joint motor-5</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.034999999999999989 0.029999999999999971 0</Position>
+<Axis>1 0 -3.0760239554583497e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>c- bracket leg-6</Uid>
+</InstancePath>
+<Position>-0.035000000000000017 0.030000000000000082 1.1102230246251565e-16</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident64">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>joint motor-7</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.035000000000000003 0.029999999999999971 0</Position>
+<Axis>1 0 -2.9646760926808435e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>c- bracket leg-5</Uid>
+</InstancePath>
+<Position>-0.035000000000000024 0.029999999999999999 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident65">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>joint motor-8</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.035000000000000031 0.029999999999999971 0</Position>
+<Axis>1 0 -2.964676092680844e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>c- bracket leg-7</Uid>
+</InstancePath>
+<Position>0.035000000000000031 0.029999999999999971 0</Position>
+<Axis>1 0 -2.9490299091605721e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident66">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>joint motor-6</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.034999999999999976 0.029999999999999971 0</Position>
+<Axis>1 0 -2.9646760926808435e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>c- bracket leg-8</Uid>
+</InstancePath>
+<Position>0.035000000000000031 0.030000000000000054 0</Position>
+<Axis>1 0 -2.9620403352303981e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident67">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-8</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.012500000000000067</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-3</Uid>
+</InstancePath>
+<Position>0.012500000000000011 -0.065000000000000002 -0.012499999999999956</Position>
+<Axis>1 0 -1.3921155894713877e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident68">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-8</Uid>
+</InstancePath>
+<Position>0.012500000000000011 -0.0050000000000000044 0.0124999999999999</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-3</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 -0.065000000000000002 -0.0124999999999999</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident69">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-8</Uid>
+</InstancePath>
+<Position>0 -0.0049999999999999489 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-3</Uid>
+</InstancePath>
+<Position>0 -0.06500000000000003 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident70">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-5</Uid>
+</InstancePath>
+<Position>0.012500000000000025 -0.0049999999999999767 0.012499999999999983</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>0.012499999999999997 -0.065000000000000002 -0.012500000000000011</Position>
+<Axis>1 0 -1.4051260155412137e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident71">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-5</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000322 -0.012499999999999956</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>-0.012499999999999983 -0.064999999999999974 -0.012500000000000011</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident72">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-5</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000322 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>0 0.064999999999999947 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident74">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-6</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 -0.0050000000000000044 0.012499999999999956</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-4</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.064999999999999947 -0.012500000000000067</Position>
+<Axis>-1.0000000000000002 0 1.5959455978986625e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident75">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-6</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.012500000000000067</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-4</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.064999999999999947 -0.012500000000000067</Position>
+<Axis>0 -2.2204460492503131e-16 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident76">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-6</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 -1.1102230246251565e-16</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-4</Uid>
+</InstancePath>
+<Position>0 0.065000000000000002 -1.1102230246251565e-16</Position>
+<Axis>0 1.0000000000000002 2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident77">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-7</Uid>
+</InstancePath>
+<Position>0 0.0049999999999999489 -0.012499999999999956</Position>
+<Axis>0 -1.1102230246251565e-16 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-2</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 -0.06500000000000003 -0.012499999999999956</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident78">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-7</Uid>
+</InstancePath>
+<Position>0.012500000000000011 -0.0050000000000000322 0.012499999999999956</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-2</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 -0.06500000000000003 -0.012499999999999956</Position>
+<Axis>-1 0 1.4224732503009818e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident79">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-7</Uid>
+</InstancePath>
+<Position>0 -0.00500000000000006 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-2</Uid>
+</InstancePath>
+<Position>0 -0.064999999999999947 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident80">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-3</Uid>
+</InstancePath>
+<Position>0.012500000000000011 -0.065000000000000002 -0.012499999999999956</Position>
+<Axis>1 0 -1.3921155894713877e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-10</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 0.0049999999999999906 0.012500000000000011</Position>
+<Axis>0 -2.2204460492503131e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident81">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-3</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 -0.065000000000000002 -0.0124999999999999</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-10</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.012500000000000011 -0.0050000000000000183 0.012499999999999956</Position>
+<Axis>1 0 1.2663481374630692e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident82">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-3</Uid>
+</InstancePath>
+<Position>0 0.064999999999999988 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-10</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1.0000000000000002 2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident83">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-2</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 -0.06500000000000003 -0.012499999999999956</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-9</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000322 0.012500000000000178</Position>
+<Axis>0 -1.6653345369377348e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident84">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-2</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 -0.06500000000000003 -0.012499999999999956</Position>
+<Axis>-1 0 1.4224732503009818e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-9</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.012500000000000011 -0.0050000000000000322 0.012500000000000178</Position>
+<Axis>1 0 1.3530843112619095e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident85">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-2</Uid>
+</InstancePath>
+<Position>0 0.065000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-9</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 -0.0049999999999999767 1.1102230246251565e-16</Position>
+<Axis>0 -1.0000000000000004 1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident86">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-4</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.064999999999999947 -0.012500000000000067</Position>
+<Axis>0 -2.2204460492503131e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-12</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 0.0049999999999999489 -0.012499999999999956</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident87">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-4</Uid>
+</InstancePath>
+<Position>0 -0.064999999999999974 -1.1102230246251565e-16</Position>
+<Axis>0 -1.0000000000000002 -2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-12</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 -0.0049999999999999767 -1.1102230246251565e-16</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident88">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-4</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.064999999999999947 -0.012500000000000067</Position>
+<Axis>-1.0000000000000002 0 1.5959455978986625e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-12</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.012499999999999997 -0.0050000000000000322 0.012500000000000067</Position>
+<Axis>1.0000000000000002 0 1.457167719820518e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident89">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>-0.012499999999999983 -0.064999999999999974 -0.012500000000000011</Position>
+<Axis>-1 0 1.4051260155412137e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-11</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.012499999999999997 -0.0049999999999999767 0.012499999999999956</Position>
+<Axis>1 0 1.2663481374630692e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident90">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.065000000000000002 0.012499999999999956</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-11</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 0.0049999999999999767 0.012499999999999956</Position>
+<Axis>0 -2.7755575615628914e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident91">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>0 -0.064999999999999961 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>joint motor-11</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000183 0</Position>
+<Axis>0 -1.0000000000000002 2.7755575615628914e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident92">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>joint motor-11</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.035000000000000003 0.029999999999999999 0</Position>
+<Axis>1 0 -3.0704605524789486e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>c- bracket leg-9</Uid>
+</InstancePath>
+<Position>-0.035000000000000024 0.029999999999999971 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident94">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>joint motor-10</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.035000000000000031 0.030000000000000041 0</Position>
+<Axis>1 0 -3.0878077872387166e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>c- bracket leg-10</Uid>
+</InstancePath>
+<Position>0.035000000000000031 0.029999999999999943 0</Position>
+<Axis>1.0000000000000002 0 -2.9577035265404561e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident95">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>joint motor-9</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.035000000000000031 0.030000000000000082 0</Position>
+<Axis>1 0 -3.0184188481996443e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>c- bracket leg-11</Uid>
+</InstancePath>
+<Position>0.034999999999999976 0.029999999999999916 0</Position>
+<Axis>1 0 -2.9143354396410359e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident96">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>joint motor-12</Uid>
+<Uid>c- bracket motor-1</Uid>
+</InstancePath>
+<Position>0.034999999999999996 0.029999999999999971 1.1102230246251565e-16</Position>
+<Axis>1 0 -2.9143354396410359e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>c- bracket leg-12</Uid>
+</InstancePath>
+<Position>-0.03500000000000001 0.029999999999999916 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident99">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-11</Uid>
+</InstancePath>
+<Position>-0.012500000000000067 -0.0050000000000001155 0.0124999999999999</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerleg-3</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 0.18500000000000005 -0.012500000000000011</Position>
+<Axis>-1.0000000000000002 0 1.457167719820518e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident100">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-11</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 0.012499999999999956</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerleg-3</Uid>
+</InstancePath>
+<Position>-0.012499999999999956 0.18500000000000005 0.012499999999999956</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident102">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-11</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerleg-3</Uid>
+</InstancePath>
+<Position>0 0.18500000000000016 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident103">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-12</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.0049999999999998934 0.012499999999999845</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerleg-1</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 0.185 -0.0124999999999999</Position>
+<Axis>-1 0 1.5265566588595902e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident104">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-12</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 -0.012500000000000067</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerleg-1</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 0.185 -0.0124999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident105">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-12</Uid>
+</InstancePath>
+<Position>0 -0.0049999999999998934 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerleg-1</Uid>
+</InstancePath>
+<Position>0 0.185 1.1102230246251565e-16</Position>
+<Axis>0 1.0000000000000002 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident106">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-9</Uid>
+</InstancePath>
+<Position>0 0.0049999999999999767 0.012500000000000011</Position>
+<Axis>0 1.6653345369377348e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerleg-2</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 0.185 0.012500000000000039</Position>
+<Axis>0 1.6653345369377348e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident107">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-9</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 -0.0050000000000000044 0.012499999999999969</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerleg-2</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 0.185 -0.012499999999999956</Position>
+<Axis>-1.0000000000000002 0 1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident108">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-9</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1 -1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerleg-2</Uid>
+</InstancePath>
+<Position>0 0.185 0</Position>
+<Axis>0 1 1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident109">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-10</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 -0.0050000000000000044 0.012499999999999956</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerleg-4</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 0.185 -0.012499999999999969</Position>
+<Axis>-1.0000000000000002 0 1.4051260155412137e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident110">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-10</Uid>
+</InstancePath>
+<Position>0 0.0049999999999999767 0.012500000000000011</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerleg-4</Uid>
+</InstancePath>
+<Position>-0.012499999999999956 0.185 0.012500000000000011</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident111">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>c- bracket leg-10</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000322 0</Position>
+<Axis>0 -1 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lowerleg-4</Uid>
+</InstancePath>
+<Position>0 0.18500000000000005 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="joint motor" uid="joint motor" version="173">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="joint motor.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="motor" uid="motor" version="158">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="motor.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="body" uid="body*:*Default" version="154">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>26.812500000000007</Mass>
+<CenterOfMass>0 0.017900932400932407 0</CenterOfMass>
+<Inertia>0.76063998685168988 0.8634106250000001 0.26025373685169001 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="c- bracket leg" uid="c- bracket leg*:*Default" version="203">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="c- bracket leg.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.067945121078145057</Mass>
+<CenterOfMass>0 0.013282326133563052 0</CenterOfMass>
+<Inertia>1.9552723952643586e-05 6.5038627545539726e-05 7.5756135360545863e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="c- bracket leg_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="c- bracket motor" uid="c- bracket motor*:*Default" version="242">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="c- bracket motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.064570121078145068</Mass>
+<CenterOfMass>0 0.013845904923460856 0</CenterOfMass>
+<Inertia>1.8957029993461197e-05 4.8732053918188958e-05 5.9205430274012715e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="c- bracket motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="lowerleg" uid="lowerleg*:*Default" version="838">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="lowerleg.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.16010115161188496</Mass>
+<CenterOfMass>-1.3327532647912509e-15 0.035082554616890624 1.3467244274172512e-15</CenterOfMass>
+<Inertia>0.000636438806227251 2.7267640640350683e-05 0.00063650720001436588 0 6.7696451281637261e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="lowerleg_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor axle" uid="motor axle*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor axle.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0050000000000000001</Mass>
+<CenterOfMass>0 0 0.041250000000000002</CenterOfMass>
+<Inertia>2.8471875000000009e-06 2.8471875000000009e-06 2.2500000000000013e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motor axle_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor body" uid="motor body*:*Default" version="269">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.29999999999999999</Mass>
+<CenterOfMass>0 0 0.029999999999999992</CenterOfMass>
+<Inertia>0.00011497499999999999 0.00011497499999999999 4.9949999999999967e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motor body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="upperleg" uid="upperleg*:*Default" version="543">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="upperleg.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.049490999999999986</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>7.4273618250000117e-05 9.1475865000000017e-06 7.4273618250000117e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="upperleg_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

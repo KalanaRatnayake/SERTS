@@ -1,0 +1,2639 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="09/25/18||15:09:48" using="Simscape Multibody Link Version 5.1" from="SolidWorks 25.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Leg_model" uid="Leg_model" version="1084">
+<AssemblyFile name="Leg_model.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="bearing-3" uid="bearing-3" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>-1.5250979079704714e-16 0.93772167720886934 0.3473874725613823 -0.99787577664127669 0.022630725854017111 -0.06108833472840175 -0.065145486356070231 -0.34664954397763953 0.93572974691816102</Rotation>
+<Translation>0 0.084139419581095928 -0.12227844331520082</Translation>
+</Transform>
+</Instance>
+<Instance name="upper leg casin-3" uid="upper leg casin-3" entityUid="upper leg casin*:*Default">
+<Transform>
+<Rotation>1 -1.3150969637311265e-15 -1.5250979079704758e-16 -2.3785845724465772e-16 -0.065145486356070037 -0.99787577664127669 1.3023680795462465e-15 0.99787577664127669 -0.065145486356070037</Rotation>
+<Translation>0 0.10759468928620457 -0.12074718562930416</Translation>
+</Transform>
+</Instance>
+<Instance name="Lower joint cap-4" uid="Lower joint cap-4" entityUid="Lower joint cap*:*Default">
+<Transform>
+<Rotation>0.43775261594960191 0.89909546057650658 -1.7347234759768071e-16 0.058572011059791027 -0.028517607069678812 -0.9978757766412768 -0.89718558099742773 0.43682273161745949 -0.065145486356069815</Rotation>
+<Translation>1.4468402733182326e-15 0.062700657245423758 -0.12367805500226899</Translation>
+</Transform>
+</Instance>
+<Instance name="upper leg casin-5" uid="upper leg casin-5" entityUid="upper leg casin*:*Default">
+<Transform>
+<Rotation>0.43775261594959886 0.89909546057650824 -6.5648441543997293e-16 0.058572011059790666 -0.028517607069678916 -0.9978757766412768 -0.89718558099742929 0.43682273161745633 -0.065145486356069551</Rotation>
+<Translation>-0.17981909211530045 0.11329821070014023 -0.20811173195279531</Translation>
+</Transform>
+</Instance>
+<Instance name="upper leg cap-4" uid="upper leg cap-4" entityUid="upper leg cap*:*Default">
+<Transform>
+<Rotation>-1 -9.5466334358836509e-15 0 6.8174583693455825e-16 -0.065145486356069163 0.99787577664127669 -9.5224485794700758e-15 0.99787577664127669 0.065145486356069163</Rotation>
+<Translation>0 0.055715526808935018 -0.12413407340676171</Translation>
+</Transform>
+</Instance>
+<Instance name="Lower joint casin-1" uid="Lower joint casin-1" entityUid="Lower joint casin*:*Default">
+<Transform>
+<Rotation>-0.4377526159495988 0.89909546057650813 2.690989792109022e-16 -0.058572011059791089 -0.028517607069678701 0.9978757766412768 0.8971855809974294 0.43682273161745649 0.065145486356069829</Rotation>
+<Translation>9.7918459179477968e-16 0.08065204331688984 -0.1225061137609178</Translation>
+</Transform>
+</Instance>
+<Instance name="lower leg main-1" uid="lower leg main-1" entityUid="lower leg main*:*Default">
+<Transform>
+<Rotation>8.4000426785798406e-16 -0.7497363573007495 -0.66173665044442176 -0.9978757766412768 -0.043109155932837942 0.04884193963518365 -0.065145486356068136 0.66033097399422447 -0.74814374981768716</Rotation>
+<Translation>0.00011763363687847977 0.08422831494669078 -0.36916441242247428</Translation>
+</Transform>
+</Instance>
+<Instance name="SEA system hip-1" uid="SEA system hip-1" entityUid="SEA system hip" rigid="true">
+<Transform>
+<Rotation>0 4.8457513596075849e-16 1 -0.065145486356070259 -0.99787577664127691 4.8517224602378343e-16 0.99787577664127691 -0.065145486356070259 0</Rotation>
+<Translation>-0.0042741971082803079 -0.0043628610934266796 0.01770640301726369</Translation>
+</Transform>
+<Instance name="spring connector hip-1" uid="spring connector hip-1" entityUid="spring connector hip*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.015545252148012449 -0.15320994924333509 0.0042741971082803053</Translation>
+</Transform>
+</Instance>
+<Instance name="spring-1" uid="spring-1" entityUid="spring*:*Default">
+<Transform>
+<Rotation>0 0 -1.0000000000000002 0 1.0000000000000002 0 1 0 0</Rotation>
+<Translation>0.015545252148012414 -0.15020994924333508 0.0042741971082803079</Translation>
+</Transform>
+</Instance>
+<Instance name="spring-2" uid="spring-2" entityUid="spring*:*Default">
+<Transform>
+<Rotation>-1 1.9428902930940235e-16 0 1.942890293094023e-16 1 0 0 0 -1</Rotation>
+<Translation>-0.051451274888434095 -0.15020994924333511 0.0042741971082803417</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor axis connector-1" uid="Motor axis connector-1" entityUid="Motor axis connector*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.017953011370210679 -0.0032001011658049105 0.0042021601933351724</Translation>
+</Transform>
+</Instance>
+<Instance name="spring holder-1" uid="spring holder-1" entityUid="spring holder*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 0 0 -1.0000000000000002 0 0 0 -1</Rotation>
+<Translation>0.015545252148012455 -0.15220994924333511 0.004274197108280425</Translation>
+</Transform>
+</Instance>
+<Instance name="spring holder-2" uid="spring holder-2" entityUid="spring holder*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.051451274888434081 -0.15320994924333511 0.0042741971082802203</Translation>
+</Transform>
+</Instance>
+<Instance name="spring connector hip-2" uid="spring connector hip-2" entityUid="spring connector hip*:*Default">
+<Transform>
+<Rotation>0 1.6653345369377341e-16 -1 0 1 1.6653345369377341e-16 1 0 0</Rotation>
+<Translation>-0.051451274888434081 -0.15320994924333511 0.0042741971082803417</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Lower joint cap-6" uid="Lower joint cap-6" entityUid="Lower joint cap*:*Default">
+<Transform>
+<Rotation>-0.31842240634106095 -0.94794892855046164 0 -0.06175459399113406 0.020743782527758155 -0.99787577664127669 0.9459352732935582 -0.31774600602757053 -0.065145486356068719</Rotation>
+<Translation>-0.17981909211529812 0.068404178659359577 -0.21104260132576233</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-2" uid="motor axle-2" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>-0.44743896110090747 0.89431447270461895 3.6082248300317588e-16 -0.058260551279614783 -0.029148628735573751 0.99787577664127658 0.89241474901165541 0.44648850080813396 0.065145486356070287</Rotation>
+<Translation>1.0724635037016145e-15 0.11956919860589993 -0.11996543979303109</Translation>
+</Transform>
+</Instance>
+<Instance name="Lower joint casin-2" uid="Lower joint casin-2" entityUid="Lower joint casin*:*Default">
+<Transform>
+<Rotation>0.43775261594959919 0.89909546057650791 0 0.058572011059791096 -0.028517607069678375 -0.9978757766412768 -0.89718558099742907 0.43682273161745677 -0.065145486356069676</Rotation>
+<Translation>1.0829276805589321e-15 0.055705148900858224 -0.12413475091981954</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="0.25"/>
+<Emissive r="0" g="0" b="0" a="0.25"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="upper leg cap-3" uid="upper leg cap-3" entityUid="upper leg cap*:*Default">
+<Transform>
+<Rotation>-1 -6.0802692561063189e-15 -1.5250205910551016e-16 -2.4392398719560116e-16 0.065145486356069982 -0.99787577664127691 6.0772882269359034e-15 -0.99787577664127691 -0.065145486356069982</Rotation>
+<Translation>0 0.080652043316889854 -0.12250611376091794</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing-4" uid="bearing-4" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>0 -0.5100546219401898 0.86014201306380222 0.9978757766412768 -0.056034369776329522 -0.033227756414454565 0.065145486356068885 0.8583148793078329 0.50897115199803977</Rotation>
+<Translation>0 0.052217772636652067 -0.12436242136553703</Translation>
+</Transform>
+</Instance>
+<Instance name="Lower joint casin-3" uid="Lower joint casin-3" entityUid="Lower joint casin*:*Default">
+<Transform>
+<Rotation>-0.66173665044442198 -0.7497363573007495 2.7807583438590328e-16 0.04884193963518503 -0.043109155932837685 0.99787577664127669 -0.74814374981768705 0.66033097399422458 0.065145486356068996</Rotation>
+<Translation>-0.17981909211530175 0.086355564730825646 -0.20987066008440899</Translation>
+</Transform>
+</Instance>
+<Instance name="motor body-3" uid="motor body-3" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>0.070442844302824617 0.99751581726132443 5.1575497345135446e-16 -0.064983653063361208 0.0045890333524118785 0.9978757766412768 0.995396870861602 -0.070293207967501659 0.065145486356069537</Rotation>
+<Translation>-0.17981909211530239 0.13623897565481272 -0.20661406327966272</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing-5" uid="bearing-5" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>0 0.99541274679097969 0.095673734776253669 -0.99787577664127669 0.0062327119835005693 -0.064846647514729253 -0.065145486356069315 -0.095470502394025672 0.99329826778267538</Rotation>
+<Translation>-0.17981909211530167 0.089842940995031498 -0.20964298963869188</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing-6" uid="bearing-6" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>0 0.9990183867965774 -0.044297436069867399 -0.9978757766412768 -0.0028857780170984527 -0.06508153868651867 -0.065145486356069177 0.044203338421436235 0.99689624860355008</Rotation>
+<Translation>-0.1798190921153017 0.057921294050587678 -0.21172696768902804</Translation>
+</Transform>
+</Instance>
+<Instance name="upper leg casin-4" uid="upper leg casin-4" entityUid="upper leg casin*:*Default">
+<Transform>
+<Rotation>-1 -1.2543815930717066e-15 0 1.4131889886326263e-16 -0.065145486356069648 0.99787577664127669 -1.2478259657379973e-15 0.99787577664127669 0.065145486356069648</Rotation>
+<Translation>0 0.028762502931543369 -0.1258936790514337</Translation>
+</Transform>
+</Instance>
+<Instance name="Lower joint cap-2" uid="Lower joint cap-2" entityUid="Lower joint cap*:*Default">
+<Transform>
+<Rotation>-1.137034313388119e-15 0 1 -0.065145486356069121 -0.9978757766412768 0 0.9978757766412768 -0.065145486356069121 1.1400958609959524e-15</Rotation>
+<Translation>0.0054895999999999938 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="upper leg casin-2" uid="upper leg casin-2" entityUid="upper leg casin*:*Default">
+<Transform>
+<Rotation>9.9612752267833594e-16 0 -1 -1.214306433183765e-16 -1.0000000000000002 0 -1.0000000000000002 1.214306433183765e-16 -9.9612752267833357e-16</Rotation>
+<Translation>0.039499999999999993 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor body-2" uid="motor body-2" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>1 -6.0804196634287362e-15 1.4870667981072768e-16 2.4772110261520087e-16 0.065145486356069982 0.99787577664127691 -6.0771910629295086e-15 -0.99787577664127691 0.065145486356069982</Rotation>
+<Translation>0 0.13054583214895393 -0.11924883944311447</Translation>
+</Transform>
+</Instance>
+<Instance name="upperleg-1" uid="upperleg-1" entityUid="upperleg*:*Default">
+<Transform>
+<Rotation>2.9880611873700502e-16 0.8990954605765078 -0.4377526159495993 -0.9978757766412768 -0.028517607069677757 -0.058572011059790374 -0.06514548635606876 0.43682273161745694 0.89718558099742896</Rotation>
+<Translation>-0.089909546057649684 0.071030356815841994 -0.16700270550211441</Translation>
+</Transform>
+</Instance>
+<Instance name="upper leg cap-2" uid="upper leg cap-2" entityUid="upper leg cap*:*Default">
+<Transform>
+<Rotation>5.5585908278726458e-16 -9.7061369803939817e-16 -0.99999999999999989 -0.86602540378443715 -0.50000000000000255 0 -0.50000000000000255 0.86602540378443715 -1.1185056611569064e-15</Rotation>
+<Translation>0.012499999999999999 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Lower joint cap-5" uid="Lower joint cap-5" entityUid="Lower joint cap*:*Default">
+<Transform>
+<Rotation>0.31842240634105012 -0.9479489285504652 1.1449174941446927e-16 0.061754593991134928 0.020743782527757784 0.99787577664127669 -0.94593527329356164 -0.31774600602755959 0.065145486356069413</Rotation>
+<Translation>-0.17981909211531166 0.079360056386258815 -0.21032735600195046</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing-2" uid="bearing-2" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>1 0 -1.1191794436857193e-15 -1.2195624478622054e-16 0.99964845993076612 -0.026513327932335101 1.1163384154581647e-15 0.026513327932335101 0.99964845993076612</Rotation>
+<Translation>0.015994799999999997 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Lower joint cap-3" uid="Lower joint cap-3" entityUid="Lower joint cap*:*Default">
+<Transform>
+<Rotation>0.43775261594960008 -0.89909546057650735 7.0939348145726555e-16 0.058572011059791484 0.028517607069679478 0.99787577664127658 -0.89718558099742884 -0.43682273161745766 0.065145486356070537</Rotation>
+<Translation>1.1667347757879532e-15 0.073666912880400906 -0.1229621321654103</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-3" uid="motor axle-3" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>0.65359951234228986 -0.75684058920351327 -1.1210650463500116e-16 -0.049304748277677349 -0.042579058113628415 -0.99787577664127669 0.75523289074509714 0.65221112099092238 -0.065145486356069773</Rotation>
+<Translation>-0.17981909211530139 0.12526234211175852 -0.20733066362958033</Translation>
+</Transform>
+</Instance>
+<Instance name="upper leg cap-5" uid="upper leg cap-5" entityUid="upper leg cap*:*Default">
+<Transform>
+<Rotation>0.9975158172613251 0.070442844302816332 -3.6374982886888674e-16 0.0045890333524114812 -0.06498365306336111 -0.99787577664127658 -0.070293207967493387 0.99539687086160256 -0.065145486356069426</Rotation>
+<Translation>-0.1798190921153007 0.086345186822748957 -0.20987133759746762</Translation>
+</Transform>
+</Instance>
+<Instance name="Lower joint casin-4" uid="Lower joint casin-4" entityUid="Lower joint casin*:*Default">
+<Transform>
+<Rotation>0.66173665044442165 -0.74973635730074961 9.9920072216264089e-16 -0.048841939635183379 -0.0431091559328379 -0.99787577664127669 0.74814374981768728 0.66033097399422436 -0.0651454863560679</Rotation>
+<Translation>-0.17981909211530173 0.061408670314793648 -0.2114992972433109</Translation>
+</Transform>
+</Instance>
+<Instance name="upper leg casin-6" uid="upper leg casin-6" entityUid="upper leg casin*:*Default">
+<Transform>
+<Rotation>-0.43775261594959852 0.89909546057650802 -1.8735013540549517e-16 -0.058572011059790707 -0.028517607069677989 0.99787577664127669 0.8971855809974294 0.43682273161745622 0.065145486356069149</Rotation>
+<Translation>-0.17981909211530048 0.034466024345479303 -0.21325822537492481</Translation>
+</Transform>
+</Instance>
+<Instance name="upper leg cap-6" uid="upper leg cap-6" entityUid="upper leg cap*:*Default">
+<Transform>
+<Rotation>0.55976320131172963 0.82865261627369768 0 -0.053982977707378962 0.036466045993682687 0.99787577664127669 0.8268923730299419 -0.55857413924414956 0.065145486356068871</Rotation>
+<Translation>-0.17981909211530164 0.061419048222870636 -0.21149861973025291</Translation>
+</Transform>
+</Instance>
+<Instance name="SEA system-1" uid="SEA system-1" entityUid="SEA system" rigid="true">
+<Transform>
+<Rotation>0.2944058598802119 -0.86509888170627025 -0.40611465688737952 -0.95507763340834795 -0.25124181827511238 -0.15717589800260287 0.033939708768671889 0.43414453079634241 -0.9002036561513852</Rotation>
+<Translation>-0.084821909097846759 0.31599371162790846 -0.18076651381692693</Translation>
+</Transform>
+<Instance name="spring base-1" uid="spring base-1" entityUid="spring base*:*Default">
+<Transform>
+<Rotation>-0.15714274537972203 -0.95083781635554909 -0.26685877269210145 0.94610598787129674 -0.22242556792848989 0.23539398132867884 -0.28317771326254043 -0.21548622628813086 0.93454591593538017</Rotation>
+<Translation>0.20490264525539512 0.083274698429378902 0.1401720313772192</Translation>
+</Transform>
+</Instance>
+<Instance name="spring-2" uid="spring-2" entityUid="spring*:*Default">
+<Transform>
+<Rotation>-0.26685877269210118 -0.15714274537972331 -0.95083781635554909 0.23539398132867931 0.94610598787129629 -0.22242556792849122 0.93454591593538028 -0.2831777132625411 -0.21548622628813008</Rotation>
+<Translation>0.21108147798780591 0.030989884927459216 0.16687634382173575</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor axis connector-1" uid="Motor axis connector-1" entityUid="Motor axis connector*:*Default">
+<Transform>
+<Rotation>0.2668587726921019 -0.15714274537972117 0.9508378163555492 -0.23539398132867873 0.94610598787129718 0.22242556792848914 -0.93454591593538017 -0.28317771326253999 0.2154862262881316</Rotation>
+<Translation>0.20219361027284363 0.13000786641316578 0.10355328514215598</Translation>
+</Transform>
+</Instance>
+<Instance name="spring connector-1" uid="spring connector-1" entityUid="spring connector*:*Default">
+<Transform>
+<Rotation>0.95083781635554909 -0.1571427453797227 -0.26685877269210145 0.22242556792849055 0.94610598787129663 0.23539398132867867 0.21548622628813066 -0.28317771326254038 0.93454591593538028</Rotation>
+<Translation>0.21155290622394507 0.028151566963845437 0.16772587696152327</Translation>
+</Transform>
+</Instance>
+<Instance name="spring connector-2" uid="spring connector-2" entityUid="spring connector*:*Default">
+<Transform>
+<Rotation>-0.95083781635554898 -0.15714274537972295 0.26685877269210145 -0.22242556792849075 0.94610598787129674 -0.23539398132867867 -0.21548622628813069 -0.28317771326254026 -0.93454591593538028</Rotation>
+<Translation>0.22943151720352434 0.012380987729541812 0.10511454623775793</Translation>
+</Transform>
+</Instance>
+<Instance name="spring-1" uid="spring-1" entityUid="spring*:*Default">
+<Transform>
+<Rotation>-0.26685877269210184 -0.1571427453797232 -0.95083781635554876 0.23539398132867831 0.94610598787129652 -0.22242556792849108 0.93454591593538028 -0.28317771326254026 -0.21548622628813099</Rotation>
+<Translation>0.22896008896738518 0.015219305693155688 0.1042650130979704</Translation>
+</Transform>
+</Instance>
+<Instance name="spring holder-1" uid="spring holder-1" entityUid="spring holder*:*Default">
+<Transform>
+<Rotation>-0.41414427223506173 0.15714274537972311 -0.89654374090136535 -0.32344055459811377 -0.94610598787129674 -0.016421551551013047 -0.85080592934943478 0.28317771326254043 0.44265071252088017</Rotation>
+<Translation>0.22927437445814466 0.013327093717413113 0.10483136852449546</Translation>
+</Transform>
+</Instance>
+<Instance name="spring base-2" uid="spring base-2" entityUid="spring base*:*Default">
+<Transform>
+<Rotation>-0.15714274537972298 0.95083781635554898 0.26685877269210134 0.94610598787129663 0.22242556792849075 -0.23539398132867848 -0.28317771326254026 0.21548622628813058 -0.93454591593538028</Rotation>
+<Translation>0.21691036323574817 0.072682786784306383 0.09812071080403223</Translation>
+</Transform>
+</Instance>
+<Instance name="spring holder-2" uid="spring holder-2" entityUid="spring holder*:*Default">
+<Transform>
+<Rotation>-0.72849146384046448 -0.15714274537972284 0.66678808079186647 -0.30465001929858004 0.94610598787129663 -0.10987185925182445 -0.61358663027558857 -0.28317771326254043 -0.73710367646515407</Rotation>
+<Translation>0.2115529062239451 0.028151566963845354 0.16772587696152333</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="SEA system-4" uid="SEA system-4" entityUid="SEA system" rigid="true">
+<Transform>
+<Rotation>-0.024468203198370626 0.7475952678139155 -0.66370371595651267 -0.92870623440357558 -0.26272126402769408 -0.261691168379106 -0.37000815830488687 0.60998266612251417 0.70072470330215642</Rotation>
+<Translation>-0.023517251219144025 0.31729413550231128 -0.20036666656818339</Translation>
+</Transform>
+<Instance name="spring base-1" uid="spring base-1" entityUid="spring base*:*Default">
+<Transform>
+<Rotation>-0.15714274537972203 -0.95083781635554931 -0.26685877269210145 0.94610598787129652 -0.22242556792848997 0.23539398132867906 -0.28317771326254076 -0.21548622628813086 0.93454591593538017</Rotation>
+<Translation>0.20490264525539514 0.083274698429378874 0.14017203137721918</Translation>
+</Transform>
+</Instance>
+<Instance name="spring-2" uid="spring-2" entityUid="spring*:*Default">
+<Transform>
+<Rotation>-0.26685877269210129 -0.15714274537972348 -0.95083781635554887 0.23539398132867892 0.94610598787129629 -0.22242556792849133 0.93454591593538028 -0.28317771326254076 -0.21548622628813022</Rotation>
+<Translation>0.21108147798780597 0.030989884927459188 0.16687634382173572</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor axis connector-1" uid="Motor axis connector-1" entityUid="Motor axis connector*:*Default">
+<Transform>
+<Rotation>0.2668587726921019 -0.1571427453797212 0.95083781635554898 -0.2353939813286785 0.94610598787129696 0.22242556792848908 -0.93454591593538017 -0.28317771326253993 0.21548622628813152</Rotation>
+<Translation>0.20219361027284366 0.13000786641316575 0.10355328514215596</Translation>
+</Transform>
+</Instance>
+<Instance name="spring connector-1" uid="spring connector-1" entityUid="spring connector*:*Default">
+<Transform>
+<Rotation>0.9508378163555492 -0.15714274537972259 -0.26685877269210145 0.2224255679284905 0.94610598787129663 0.235393981328679 0.21548622628813066 -0.28317771326254071 0.93454591593538028</Rotation>
+<Translation>0.2115529062239451 0.028151566963845381 0.1677258769615233</Translation>
+</Transform>
+</Instance>
+<Instance name="spring connector-2" uid="spring connector-2" entityUid="spring connector*:*Default">
+<Transform>
+<Rotation>-0.9508378163555492 -0.15714274537972298 0.26685877269210145 -0.22242556792849069 0.94610598787129652 -0.23539398132867861 -0.21548622628813066 -0.28317771326254049 -0.93454591593538017</Rotation>
+<Translation>0.22943151720352434 0.012380987729541826 0.10511454623775794</Translation>
+</Transform>
+</Instance>
+<Instance name="spring-1" uid="spring-1" entityUid="spring*:*Default">
+<Transform>
+<Rotation>-0.2668587726921019 -0.15714274537972334 -0.95083781635554887 0.23539398132867811 0.94610598787129674 -0.22242556792849105 0.93454591593538039 -0.28317771326254004 -0.21548622628813108</Rotation>
+<Translation>0.22896008896738512 0.01521930569315566 0.10426501309797036</Translation>
+</Transform>
+</Instance>
+<Instance name="spring holder-1" uid="spring holder-1" entityUid="spring holder*:*Default">
+<Transform>
+<Rotation>-0.41414427223506173 0.15714274537972303 -0.89654374090136546 -0.32344055459811361 -0.94610598787129652 -0.016421551551013103 -0.85080592934943489 0.28317771326254043 0.44265071252088006</Rotation>
+<Translation>0.22927437445814469 0.013327093717413085 0.1048313685244954</Translation>
+</Transform>
+</Instance>
+<Instance name="spring base-2" uid="spring base-2" entityUid="spring base*:*Default">
+<Transform>
+<Rotation>-0.15714274537972298 0.95083781635554909 0.26685877269210145 0.94610598787129652 0.22242556792849075 -0.23539398132867873 -0.28317771326254049 0.21548622628813061 -0.93454591593538039</Rotation>
+<Translation>0.21691036323574819 0.072682786784306341 0.098120710804032174</Translation>
+</Transform>
+</Instance>
+<Instance name="spring holder-2" uid="spring holder-2" entityUid="spring holder*:*Default">
+<Transform>
+<Rotation>-0.72849146384046459 -0.15714274537972259 0.66678808079186669 -0.30465001929857999 0.94610598787129674 -0.10987185925182469 -0.61358663027558857 -0.2831777132625406 -0.73710367646515418</Rotation>
+<Translation>0.21155290622394507 0.028151566963845298 0.16772587696152336</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="hip-1" uid="hip-1" entityUid="hip*:*Default">
+<Transform>
+<Rotation>-1 1.3151092801519107e-15 0 1.4158295184568318e-16 0.065145486356070037 -0.99787577664127669 -1.3086656881176548e-15 -0.99787577664127669 -0.065145486356070037</Rotation>
+<Translation>0 0.061338320041486517 -0.018543475793034642</Translation>
+</Transform>
+</Instance>
+<Instance name="Lower joint cap-1" uid="Lower joint cap-1" entityUid="Lower joint cap*:*Default">
+<Transform>
+<Rotation>5.5642319360667708e-16 -8.2768065662090736e-16 -0.99999999999999989 -0.83161302921443436 -0.55535553444689145 0 -0.55535553444689145 0.83161302921443436 -9.9732271813878752e-16</Rotation>
+<Translation>-0.0055000000000000014 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor axle-1" uid="motor axle-1" entityUid="motor axle*:*Default">
+<Transform>
+<Rotation>9.9576372572359445e-16 0 -0.99999999999999989 0.075920579050874112 -0.99711386795921164 0 -0.99711386795921164 -0.075920579050874112 -9.9882939873359013e-16</Rotation>
+<Translation>-0.051499999999999983 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="hip joint casin-1" uid="hip joint casin-1" entityUid="hip joint casin*:*Default">
+<Transform>
+<Rotation>1.087832850674756e-15 0 -1 0.065145486356070162 -0.99787577664127669 0 -0.99787577664127669 -0.065145486356070162 -1.0899573521567737e-15</Rotation>
+<Translation>-0.01249999999999999 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="motor body-1" uid="motor body-1" entityUid="motor body*:*Default">
+<Transform>
+<Rotation>-8.649697907206178e-16 4.9618450232888975e-16 -0.99999999999999978 0.50000000000000411 0.86602540378443615 0 0.86602540378443615 -0.50000000000000411 -9.9717806343460919e-16</Rotation>
+<Translation>-0.062500000000000014 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="upper leg casin-1" uid="upper leg casin-1" entityUid="upper leg casin*:*Default">
+<Transform>
+<Rotation>-7.9659636527705419e-16 0 1 1.214306433183765e-16 -1.0000000000000002 0 1.0000000000000002 1.214306433183765e-16 7.9659636527705222e-16</Rotation>
+<Translation>-0.0395 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="upper leg cap-1" uid="upper leg cap-1" entityUid="upper leg cap*:*Default">
+<Transform>
+<Rotation>-4.9617087039239517e-16 8.6496989659973621e-16 1 -0.86602540378443615 -0.50000000000000444 0 0.50000000000000444 -0.86602540378443615 9.9717133916036598e-16</Rotation>
+<Translation>-0.012500000000000001 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing-1" uid="bearing-1" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>1 -4.852278134680054e-16 0 4.8522190861637424e-16 0.99964845968843186 -0.026513337069214299 0 0.026513337069214299 0.99964845968843186</Rotation>
+<Translation>-0.0159948 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="hip joint casin-2" uid="hip joint casin-2" entityUid="hip joint casin*:*Default">
+<Transform>
+<Rotation>-1.3336928204209848e-15 0 1 -0.065145486356069857 -0.99787577664127669 -1.0234154555662395e-16 0.99787577664127669 -0.065145486356069857 1.3298506304340476e-15</Rotation>
+<Translation>0.012489599999999991 0 0</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upper leg casin-1</Uid>
+</InstancePath>
+<Position>0 0 0.024</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-1</Uid>
+</InstancePath>
+<Position>-0.00385572 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-1</Uid>
+</InstancePath>
+<Position>0 0 0.02</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-1</Uid>
+</InstancePath>
+<Position>-0.0035052 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upper leg cap-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0029999999999999992</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-1</Uid>
+</InstancePath>
+<Position>-0.00385572 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg cap-1</Uid>
+</InstancePath>
+<Position>0.010750000000000086 -0.018619546181365385 -0.0030000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg casin-1</Uid>
+</InstancePath>
+<Position>0.021500000000000009 0 0.024</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg cap-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0029999999999999992</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-1</Uid>
+</InstancePath>
+<Position>0 0 0.024</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hip joint casin-1</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999993</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-1</Uid>
+</InstancePath>
+<Position>-0.00385572 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip joint casin-1</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999993</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-1</Uid>
+</InstancePath>
+<Position>-0.0035052 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lower joint cap-1</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999984</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-1</Uid>
+</InstancePath>
+<Position>-0.00385572 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>hip joint casin-1</Uid>
+</InstancePath>
+<Position>-0.033999999999999996 0 0.0040000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Lower joint cap-1</Uid>
+</InstancePath>
+<Position>-0.017000000000000133 0.029444863728670841 0.010999999999999996</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip joint casin-1</Uid>
+</InstancePath>
+<Position>0 0 0.0040000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint cap-1</Uid>
+</InstancePath>
+<Position>0 0 0.010999999999999996</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor body-1</Uid>
+</InstancePath>
+<Position>-0.013999999999999997 0 -0.049999999999999982</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg cap-1</Uid>
+</InstancePath>
+<Position>0 0.014000000000000004 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor body-1</Uid>
+</InstancePath>
+<Position>0.013999999999999999 0 -0.049999999999999975</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg cap-1</Uid>
+</InstancePath>
+<Position>0 -0.014000000000000002 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor body-1</Uid>
+</InstancePath>
+<Position>0 0 -0.049999999999999975</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg cap-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor axle-1</Uid>
+</InstancePath>
+<Position>0 0 0.060999999999999985</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor body-1</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999975</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor axle-1</Uid>
+</InstancePath>
+<Position>0 0 0.060999999999999985</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor body-1</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999975</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upper leg casin-2</Uid>
+</InstancePath>
+<Position>0 0 0.024</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-2</Uid>
+</InstancePath>
+<Position>-0.00385572 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-2</Uid>
+</InstancePath>
+<Position>0 0 0.02</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-2</Uid>
+</InstancePath>
+<Position>0.0035052 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upper leg cap-2</Uid>
+</InstancePath>
+<Position>0 0 -0.0029999999999999992</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-2</Uid>
+</InstancePath>
+<Position>-0.00385572 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg cap-2</Uid>
+</InstancePath>
+<Position>-0.010749999999999959 -0.018619546181365448 -0.0029999999999999992</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg casin-2</Uid>
+</InstancePath>
+<Position>0.010749999999999963 -0.018619546181365458 0.024</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg cap-2</Uid>
+</InstancePath>
+<Position>0 0 -0.0029999999999999992</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-2</Uid>
+</InstancePath>
+<Position>0 0 0.024</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-1</Uid>
+</InstancePath>
+<Position>0 0 0.0395</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-2</Uid>
+</InstancePath>
+<Position>0 0 0.0395</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-1</Uid>
+</InstancePath>
+<Position>0 0.080000000000000029 0.010000000000000002</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-2</Uid>
+</InstancePath>
+<Position>0 0.080000000000000029 0.010000000000000002</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-1</Uid>
+</InstancePath>
+<Position>-0.028000000000000004 0 0.040000000000000001</Position>
+<Axis>-0.99805257848288886 0.062378286155180478 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-2</Uid>
+</InstancePath>
+<Position>0.028000000000000004 0 0.040000000000000001</Position>
+<Axis>0.99805257848288886 0.062378286155180478 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lower joint cap-2</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999993</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upper leg cap-2</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999984</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint cap-2</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999993</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-2</Uid>
+</InstancePath>
+<Position>-0.0035052 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hip joint casin-2</Uid>
+</InstancePath>
+<Position>0 0 0.007000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-2</Uid>
+</InstancePath>
+<Position>-0.00385572 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>hip joint casin-2</Uid>
+</InstancePath>
+<Position>-0.033999999999999996 0 0.0039999999999999983</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Lower joint cap-2</Uid>
+</InstancePath>
+<Position>-0.034000000000000002 0 0.010999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip joint casin-2</Uid>
+</InstancePath>
+<Position>0 0 0.0040000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint cap-2</Uid>
+</InstancePath>
+<Position>0 0 0.010999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident34">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip-1</Uid>
+</InstancePath>
+<Position>-0.012500000000000006 -0.065000000000000002 -0.012499999999999997</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-3</Uid>
+</InstancePath>
+<Position>0.012500000000000004 0.035000000000000003 0.0395</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident35">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip-1</Uid>
+</InstancePath>
+<Position>0 0.065000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-3</Uid>
+</InstancePath>
+<Position>-0.027999999999999997 0.040000000000000022 0.039499999999999987</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip-1</Uid>
+</InstancePath>
+<Position>-0.012500000000000006 -0.065000000000000002 -0.012499999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-3</Uid>
+</InstancePath>
+<Position>-0.012499999999999999 0.035000000000000003 0.026999999999999996</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip-1</Uid>
+</InstancePath>
+<Position>0.012499999999999997 -0.065000000000000002 -0.012500000000000011</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip joint casin-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip-1</Uid>
+</InstancePath>
+<Position>-0.012500000000000006 -0.065000000000000016 0.012500000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip joint casin-1</Uid>
+</InstancePath>
+<Position>-0.022499999999969954 -0.047500000000000146 -0.012500000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip joint casin-2</Uid>
+</InstancePath>
+<Position>0.022500000000030045 -0.047500000000000132 -0.012500000000000001</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip-1</Uid>
+</InstancePath>
+<Position>0 -0.065000000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip-1</Uid>
+</InstancePath>
+<Position>-0.012500000000000006 -0.065000000000000016 0.012500000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip joint casin-2</Uid>
+</InstancePath>
+<Position>-0.02249999999996995 -0.047500000000000132 -0.012500000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident69">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip-1</Uid>
+</InstancePath>
+<Position>-0.012500000000000006 -0.065000000000000002 -0.012499999999999997</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-4</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 0.034999999999999989 0.039499999999999993</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident68">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip-1</Uid>
+</InstancePath>
+<Position>-0.012500000000000006 -0.065000000000000016 0.012500000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-4</Uid>
+</InstancePath>
+<Position>-0.012499999999999999 0.035000000000000003 0.026999999999999996</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident70">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hip-1</Uid>
+</InstancePath>
+<Position>0 0.065000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-4</Uid>
+</InstancePath>
+<Position>-0.028000000000000001 0.040000000000000008 0.03949999999999998</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-3</Uid>
+</InstancePath>
+<Position>-0.003855719999999993 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upper leg casin-3</Uid>
+</InstancePath>
+<Position>0 0 0.023999999999999994</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident36">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-3</Uid>
+</InstancePath>
+<Position>-0.0035052 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-3</Uid>
+</InstancePath>
+<Position>0 0 0.019999999999999976</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-3</Uid>
+</InstancePath>
+<Position>-0.003855719999999993 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lower joint casin-1</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999923</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident37">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-3</Uid>
+</InstancePath>
+<Position>-0.0035052 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-1</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999923</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-3</Uid>
+</InstancePath>
+<Position>-0.003855719999999993 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upper leg cap-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0030000000000000027</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg cap-3</Uid>
+</InstancePath>
+<Position>-0.010749999999999959 -0.018619546181365451 -0.0030000000000000027</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg casin-3</Uid>
+</InstancePath>
+<Position>0.010750000000000084 0.018619546181365382 0.023999999999999994</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg cap-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0030000000000000027</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-3</Uid>
+</InstancePath>
+<Position>0 0 0.023999999999999994</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-3</Uid>
+</InstancePath>
+<Position>-0.003855719999999993 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lower joint cap-3</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999923</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Lower joint cap-3</Uid>
+</InstancePath>
+<Position>-0.034000000000000002 0 0.010999999999999982</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Lower joint casin-1</Uid>
+</InstancePath>
+<Position>0.034000000000000002 0 0.0040000000000000036</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint cap-3</Uid>
+</InstancePath>
+<Position>0 0 0.01100000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-1</Uid>
+</InstancePath>
+<Position>0 0 0.0040000000000000036</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor body-2</Uid>
+</InstancePath>
+<Position>0 -0.014000000000000012 -0.050000000000000017</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg cap-3</Uid>
+</InstancePath>
+<Position>0 -0.014000000000000012 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident46">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor body-2</Uid>
+</InstancePath>
+<Position>0 0 -0.050000000000000031</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg cap-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor axle-2</Uid>
+</InstancePath>
+<Position>0 0 0.060999999999999985</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor body-2</Uid>
+</InstancePath>
+<Position>0 0 0.050000000000000031</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor axle-2</Uid>
+</InstancePath>
+<Position>0 0 0.060999999999999985</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor body-2</Uid>
+</InstancePath>
+<Position>0 0 0.050000000000000031</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident49">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor axle-2</Uid>
+</InstancePath>
+<Position>0 0 0.060999999999999985</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor body-2</Uid>
+</InstancePath>
+<Position>0 0 0.050000000000000031</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric30">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lower joint casin-2</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999993</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-4</Uid>
+</InstancePath>
+<Position>-0.003855719999999993 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident56">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-2</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999993</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-4</Uid>
+</InstancePath>
+<Position>-0.0035052 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric31">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Lower joint cap-4</Uid>
+</InstancePath>
+<Position>0.017000000000000154 -0.029444863728670848 0.010999999999999996</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Lower joint casin-2</Uid>
+</InstancePath>
+<Position>0.017000000000000154 -0.029444863728670848 0.0040000000000000036</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lower joint cap-4</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999993</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-4</Uid>
+</InstancePath>
+<Position>-0.003855719999999993 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident58">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint cap-4</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999993</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-4</Uid>
+</InstancePath>
+<Position>0.0035052000000000069 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric33">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upper leg cap-4</Uid>
+</InstancePath>
+<Position>0 0 -0.0029999999999999957</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-4</Uid>
+</InstancePath>
+<Position>-0.003855719999999993 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident64">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg cap-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-4</Uid>
+</InstancePath>
+<Position>0.0035052000000000069 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric36">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upper leg casin-4</Uid>
+</InstancePath>
+<Position>0 0 0.023999999999999994</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-4</Uid>
+</InstancePath>
+<Position>-0.003855719999999993 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric37">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg cap-4</Uid>
+</InstancePath>
+<Position>-0.010750000000000091 0.018619546181365396 -0.0029999999999999957</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg casin-4</Uid>
+</InstancePath>
+<Position>-0.010749999999999952 0.018619546181365451 0.024</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident67">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-4</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-4</Uid>
+</InstancePath>
+<Position>-0.0035052 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident42">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.059999999999999998 -0.012500000000000011</Position>
+<Axis>-1 0 1.3183898417423734e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-1</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.080000000000000029 -0.012500000000000011</Position>
+<Axis>1.0000000000000002 1.1102230246251565e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.059999999999999998 -0.012500000000000011</Position>
+<Axis>0 1.1102230246251565e-16 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident44">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-2</Uid>
+</InstancePath>
+<Position>0.022499999999999992 -0.039999999999999994 -0.012499999999999997</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>0 0.059999999999999984 0</Position>
+<Axis>0 1 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident71">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>0.012500000000000011 -0.059999999999999998 -0.012500000000000011</Position>
+<Axis>1 0 -1.3183898417423734e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident72">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.060000000000000053 0.012500000000000025</Position>
+<Axis>0 -1.1102230246251565e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-2</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.080000000000000057 -0.012499999999999997</Position>
+<Axis>1.0000000000000002 1.1102230246251565e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident73">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.059999999999999998 -0.012500000000000011</Position>
+<Axis>-1 0 1.3183898417423734e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-5</Uid>
+</InstancePath>
+<Position>-0.012499999999999983 0.034999999999999976 0.026999999999999996</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident74">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.059999999999999998 -0.012500000000000011</Position>
+<Axis>0 1.1102230246251565e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-5</Uid>
+</InstancePath>
+<Position>0.012499999999999983 0.034999999999999976 0.0395</Position>
+<Axis>-1 -2.2204460492503131e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident75">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>0 -0.059999999999999998 0</Position>
+<Axis>0 -1 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-5</Uid>
+</InstancePath>
+<Position>-0.028000000000000011 0.03999999999999998 0.03949999999999998</Position>
+<Axis>-2.2204460492503131e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident105">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-5</Uid>
+</InstancePath>
+<Position>0 0 0.039500000000000007</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-6</Uid>
+</InstancePath>
+<Position>0 0 0.039499999999999993</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident106">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.060000000000000053 0.012500000000000025</Position>
+<Axis>0 -1.1102230246251565e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-6</Uid>
+</InstancePath>
+<Position>0.012500000000000011 0.035000000000000031 0.039499999999999993</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident107">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upperleg-1</Uid>
+</InstancePath>
+<Position>0 -0.059999999999999998 0</Position>
+<Axis>0 -1 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-6</Uid>
+</InstancePath>
+<Position>-0.027999999999999997 0.040000000000000036 0.039500000000000014</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric38">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upper leg casin-5</Uid>
+</InstancePath>
+<Position>0 0 0.02399999999999998</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-5</Uid>
+</InstancePath>
+<Position>-0.003855719999999993 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident76">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-5</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-5</Uid>
+</InstancePath>
+<Position>-0.0035052 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric39">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upper leg cap-5</Uid>
+</InstancePath>
+<Position>0 0 -0.0029999999999999888</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-5</Uid>
+</InstancePath>
+<Position>-0.003855719999999993 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric40">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg cap-5</Uid>
+</InstancePath>
+<Position>0.010749999999999954 0.018619546181365465 -0.0030000000000000165</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg casin-5</Uid>
+</InstancePath>
+<Position>-0.010749999999999968 0.01861954618136541 0.023999999999999994</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident78">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg cap-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-5</Uid>
+</InstancePath>
+<Position>0.0035052 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric41">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lower joint casin-3</Uid>
+</InstancePath>
+<Position>0 0 0.0070000000000000062</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-5</Uid>
+</InstancePath>
+<Position>-0.003855719999999993 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident79">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-3</Uid>
+</InstancePath>
+<Position>0 0 0.0070000000000000062</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-5</Uid>
+</InstancePath>
+<Position>-0.0035052 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric42">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lower joint cap-5</Uid>
+</InstancePath>
+<Position>0 0 0.0070000000000000062</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-5</Uid>
+</InstancePath>
+<Position>-0.003855719999999993 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric43">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Lower joint cap-5</Uid>
+</InstancePath>
+<Position>-0.017000000000000126 0.029444863728670806 0.010999999999999996</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Lower joint casin-3</Uid>
+</InstancePath>
+<Position>0.017000000000000126 0.029444863728670861 0.0040000000000000036</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident82">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint cap-5</Uid>
+</InstancePath>
+<Position>0 0 0.0070000000000000062</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-5</Uid>
+</InstancePath>
+<Position>0.0035052 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric44">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor body-3</Uid>
+</InstancePath>
+<Position>0.013999999999999985 0 -0.050000000000000017</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg cap-5</Uid>
+</InstancePath>
+<Position>0 0.014000000000000012 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric45">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor body-3</Uid>
+</InstancePath>
+<Position>0 0 -0.050000000000000017</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg cap-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident85">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor body-3</Uid>
+</InstancePath>
+<Position>0 0 -0.050000000000000017</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg cap-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor axle-3</Uid>
+</InstancePath>
+<Position>0 0 -0.060999999999999971</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor body-3</Uid>
+</InstancePath>
+<Position>0 0 0.050000000000000003</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident88">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor axle-3</Uid>
+</InstancePath>
+<Position>0 0 -0.060999999999999971</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor body-3</Uid>
+</InstancePath>
+<Position>0 0 0.050000000000000003</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric48">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-6</Uid>
+</InstancePath>
+<Position>-0.0038557200000000069 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upper leg casin-6</Uid>
+</InstancePath>
+<Position>0 0 0.024</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident92">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-6</Uid>
+</InstancePath>
+<Position>0.0035052 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-6</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric50">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-6</Uid>
+</InstancePath>
+<Position>-0.0038557200000000069 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lower joint casin-4</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999923</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident93">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-6</Uid>
+</InstancePath>
+<Position>0.0035052 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-4</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999923</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric51">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-6</Uid>
+</InstancePath>
+<Position>-0.0038557200000000069 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>upper leg cap-6</Uid>
+</InstancePath>
+<Position>0 0 -0.0029999999999999957</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric52">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg cap-6</Uid>
+</InstancePath>
+<Position>-0.010749999999999982 -0.018619546181365437 -0.0029999999999999957</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>upper leg casin-6</Uid>
+</InstancePath>
+<Position>0.010749999999999954 -0.01861954618136541 0.023999999999999994</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident95">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-6</Uid>
+</InstancePath>
+<Position>-0.0035052000000000069 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg cap-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric53">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-6</Uid>
+</InstancePath>
+<Position>-0.0038557200000000069 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lower joint cap-6</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999993</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric55">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Lower joint cap-6</Uid>
+</InstancePath>
+<Position>0.03400000000000003 0 0.010999999999999996</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Lower joint casin-4</Uid>
+</InstancePath>
+<Position>0.017000000000000182 0.02944486372867082 0.0040000000000000036</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident104">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-6</Uid>
+</InstancePath>
+<Position>-0.0035052000000000069 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint cap-6</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999993</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident89">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lower leg main-1</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 0.20000000000000001 -0.012500000000000011</Position>
+<Axis>-1 0 1.3877787807814457e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident90">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-3</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 -0.080000000000000057 -0.012499999999999983</Position>
+<Axis>1 1.1102230246251565e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lower leg main-1</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 0.20000000000000001 -0.012500000000000011</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident91">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-3</Uid>
+</InstancePath>
+<Position>0.02250000000000002 -0.040000000000000049 -0.012499999999999997</Position>
+<Axis>1.1102230246251565e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lower leg main-1</Uid>
+</InstancePath>
+<Position>0 0.20000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident108">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lower leg main-1</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 0.20000000000000004 0.012499999999999956</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-4</Uid>
+</InstancePath>
+<Position>-0.012500000000000011 -0.080000000000000057 -0.01249999999999999</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident109">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-3</Uid>
+</InstancePath>
+<Position>0 -0.080000000000000043 0.015000000000000027</Position>
+<Axis>-1.1102230246251565e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-4</Uid>
+</InstancePath>
+<Position>0 -0.080000000000000043 0.014999999999999993</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident165">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor axle-1</Uid>
+</InstancePath>
+<Position>-0.0026457513110645908 0.0030000000000000009 -0.060999999999999985</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SEA system hip-1</Uid>
+<Uid>Motor axis connector-1</Uid>
+</InstancePath>
+<Position>0.002613191437087332 0.0030284039547480231 0.0045720369149451377</Position>
+<Axis>0.010801838902861197 -0.99994165843628957 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric76">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor axle-1</Uid>
+</InstancePath>
+<Position>0 0 -0.060999999999999985</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SEA system hip-1</Uid>
+<Uid>Motor axis connector-1</Uid>
+</InstancePath>
+<Position>0 0 0.0045720369149451377</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SEA system hip-1</Uid>
+<Uid>Motor axis connector-1</Uid>
+</InstancePath>
+<Position>0 0 0.0045720369149451377</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg cap-2</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999984</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Distance>
+<Parallel name="Parallel42">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hip-1</Uid>
+</InstancePath>
+<Position>0 0.010999999999999992 0.012499999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SEA system hip-1</Uid>
+<Uid>spring connector hip-2</Uid>
+</InstancePath>
+<Position>0 0.15000000000000008 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident167">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor axle-2</Uid>
+</InstancePath>
+<Position>-0.0026457513110645925 0.0029999999999999957 -0.060999999999999985</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SEA system-4</Uid>
+<Uid>Motor axis connector-1</Uid>
+</InstancePath>
+<Position>0.0026131914370873255 0.0030284039547480227 0.004572036914945142</Position>
+<Axis>0.010801838902861072 -0.99994165843628924 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric81">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor axle-2</Uid>
+</InstancePath>
+<Position>0 0 -0.060999999999999985</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SEA system-4</Uid>
+<Uid>Motor axis connector-1</Uid>
+</InstancePath>
+<Position>0 0 0.004572036914945142</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SEA system-4</Uid>
+<Uid>Motor axis connector-1</Uid>
+</InstancePath>
+<Position>0 0 0.004572036914945142</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg cap-4</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999993</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+<Parallel name="Parallel43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-2</Uid>
+</InstancePath>
+<Position>0.02250000000000002 -0.080000000000000002 -0.012500000000000004</Position>
+<Axis>1.0000000000000002 1.1102230246251565e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SEA system-4</Uid>
+<Uid>spring base-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.1102230246251565e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident170">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor axle-3</Uid>
+</InstancePath>
+<Position>-0.0026457513110645925 0.0030000000000000027 -0.060999999999999999</Position>
+<Axis>1.1102230246251565e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SEA system-1</Uid>
+<Uid>Motor axis connector-1</Uid>
+</InstancePath>
+<Position>0.0026131914370873255 0.0030284039547480157 0.004572036914945142</Position>
+<Axis>0.010801838902861183 -0.99994165843628924 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric82">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor axle-3</Uid>
+</InstancePath>
+<Position>0 0 -0.060999999999999971</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SEA system-1</Uid>
+<Uid>Motor axis connector-1</Uid>
+</InstancePath>
+<Position>0 0 0.004572036914945149</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SEA system-1</Uid>
+<Uid>Motor axis connector-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0044279630850548451</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg cap-5</Uid>
+</InstancePath>
+<Position>0 0 0.0069999999999999923</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Parallel name="Parallel44">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lower joint casin-3</Uid>
+</InstancePath>
+<Position>-0.02250000000000002 -0.080000000000000029 -0.012499999999999983</Position>
+<Axis>-1 -1.1102230246251565e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SEA system-1</Uid>
+<Uid>spring base-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>2.7755575615628914e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident181">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg_model</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident182">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg_model</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>upper leg casin-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg_model</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="SEA system hip" uid="SEA system hip" version="277">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="SEA system hip.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="SEA system" uid="SEA system" version="193">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="SEA system.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Lower joint cap" uid="Lower joint cap*:*Default" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Lower joint cap.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016619999999999999</Mass>
+<CenterOfMass>0 0 0.00498800629178136</CenterOfMass>
+<Inertia>9.8243417952297986e-06 9.8243417952298053e-06 1.9339245713723964e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Lower joint cap_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.84999999999999998"/>
+<Diffuse r="1" g="1" b="1" a="0.84999999999999998"/>
+<Specular r="0.5" g="0.5" b="0.5" a="0.84999999999999998"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.84999999999999998"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Lower joint casin" uid="Lower joint casin*:*Default" version="457">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Lower joint casin.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.050000000000000003</Mass>
+<CenterOfMass>2.7887006008981185e-06 -0.038643673193904951 0.0052179845442409355</CenterOfMass>
+<Inertia>4.7222075974567603e-05 2.2187473909543359e-05 6.5182920245105365e-05 -4.554795207190718e-06 3.0394681477085309e-11 4.372170370308399e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Lower joint casin_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.84999999999999998"/>
+<Diffuse r="1" g="1" b="1" a="0.84999999999999998"/>
+<Specular r="0.5" g="0.5" b="0.5" a="0.84999999999999998"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.84999999999999998"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor axis connector" uid="Motor axis connector*:*Default" version="227">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor axis connector.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.2529073033033572</Mass>
+<CenterOfMass>-3.7295562563671169e-08 -8.599335226601203e-05 7.202929795146802e-05</CenterOfMass>
+<Inertia>7.6232093516010065e-05 7.6953173055245461e-05 0.00014961310963183458 4.8169546956379345e-11 -4.2045175822613205e-13 3.1017012418183285e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Motor axis connector_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bearing" uid="bearing*:*Default" version="124">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="bearing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20205079940231105</Mass>
+<CenterOfMass>-1.4239802503145379e-10 6.6827819695543262e-08 -5.5023543751052269e-07</CenterOfMass>
+<Inertia>0.00017054877980042331 8.6031885737002938e-05 8.603158080127245e-05 -2.3082538098608275e-10 1.9464293419585163e-12 1.4162725762983586e-12</Inertia>
+</MassProperties>
+<GeometryFile name="bearing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hip joint casin" uid="hip joint casin*:*Default" version="522">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hip joint casin.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.050000000000000003</Mass>
+<CenterOfMass>1.8454914309672118e-14 -0.039922058024151878 0.0049003061857414119</CenterOfMass>
+<Inertia>4.977906392779339e-05 2.0723329305894095e-05 6.617374367403478e-05 -4.6573520116561907e-06 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="hip joint casin_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.84999999999999998"/>
+<Diffuse r="1" g="1" b="1" a="0.84999999999999998"/>
+<Specular r="0.5" g="0.5" b="0.5" a="0.84999999999999998"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.84999999999999998"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hip" uid="hip*:*Default" version="386">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hip.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.049376488947776548</Mass>
+<CenterOfMass>0 5.2180678090547517e-05 0</CenterOfMass>
+<Inertia>7.407110699256947e-05 9.1316909345632249e-06 7.4086873733072474e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="hip_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="lower leg main" uid="lower leg main*:*Default" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="lower leg main.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.064388424804819377</Mass>
+<CenterOfMass>0 0.07848730956880777 0</CenterOfMass>
+<Inertia>0.00030406141159463593 1.3176701070419725e-05 0.00030406141708072353 0 3.6389375136913328e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="lower leg main_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor axle" uid="motor axle*:*Default" version="133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor axle.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.044381661385816007</Mass>
+<CenterOfMass>0 -0.00026473214510916421 0</CenterOfMass>
+<Inertia>5.5196034428336665e-05 5.523439259040034e-05 3.3431900765611293e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motor axle_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor body" uid="motor body*:*Default" version="311">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.29999999999999999</Mass>
+<CenterOfMass>0 0 6.9500894163551397e-05</CenterOfMass>
+<Inertia>0.00027486708953996483 0.00027486708953996478 5.0988093399447261e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motor body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="spring base" uid="spring base*:*Default" version="188">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="spring base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0056509148246294445</Mass>
+<CenterOfMass>0.0057821637683717073 0 0.0074065552870314971</CenterOfMass>
+<Inertia>7.9768039247499186e-07 7.6437373279897933e-07 9.174768695016946e-07 0 -2.0387031302149816e-07 0</Inertia>
+</MassProperties>
+<GeometryFile name="spring base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="spring connector hip" uid="spring connector hip*:*Default" version="261">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="spring connector hip.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.001694924102399202</Mass>
+<CenterOfMass>1.7410823282699671e-08 0.098831259388619849 -0.0032424215861303479</CenterOfMass>
+<Inertia>5.7955897596099593e-06 9.7294609685318313e-08 5.7012159807834255e-06 4.4309051968784143e-07 1.6626841561150091e-13 -1.7128462584933021e-12</Inertia>
+</MassProperties>
+<GeometryFile name="spring connector hip_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46862745098039216" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="spring connector" uid="spring connector*:*Default" version="244">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="spring connector.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0014185405267404154</Mass>
+<CenterOfMass>8.4945023772310028e-09 0.081554224133205011 -0.003874112413451326</CenterOfMass>
+<Inertia>3.3358487183087602e-06 9.3510091965781164e-08 3.244948622832553e-06 3.5118655908773252e-07 -1.2325064241216243e-13 -4.3175030660534807e-13</Inertia>
+</MassProperties>
+<GeometryFile name="spring connector_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46862745098039216" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="spring holder" uid="spring holder*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="spring holder.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0038704421492226256</Mass>
+<CenterOfMass>0 0.00050000000000000001 0</CenterOfMass>
+<Inertia>1.5368880700871508e-07 3.0673254032589306e-07 1.5368880700871508e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="spring holder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.54352941176470582" g="0.52980392156862743" b="0.51607843137254905" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="spring" uid="spring*:*Default" version="569">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="spring.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016793045302962079</Mass>
+<CenterOfMass>9.3750390021177371e-05 0.03501573945296832 1.6303515879975794e-07</CenterOfMass>
+<Inertia>9.7313692927211712e-06 1.3729014368957582e-06 9.7299006677432195e-06 -7.7992807249066362e-08 8.6082445339701052e-11 2.2233534083890722e-09</Inertia>
+</MassProperties>
+<GeometryFile name="spring_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.54352941176470582" g="0.52980392156862743" b="0.51607843137254905" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="upper leg cap" uid="upper leg cap*:*Default" version="133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="upper leg cap.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016</Mass>
+<CenterOfMass>0 0 0.0027811890838206625</CenterOfMass>
+<Inertia>3.4060456769224339e-06 3.4060456769224339e-06 6.5982836257309947e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="upper leg cap_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.84999999999999998"/>
+<Diffuse r="1" g="1" b="1" a="0.84999999999999998"/>
+<Specular r="0.5" g="0.5" b="0.5" a="0.84999999999999998"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.84999999999999998"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Part>
+<Part name="upper leg casin" uid="upper leg casin*:*Default" version="467">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="upper leg casin.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.070000000000000007</Mass>
+<CenterOfMass>0 0.03343276364856055 0.0155387653073007</CenterOfMass>
+<Inertia>6.7766323524559683e-05 2.5233442037336355e-05 7.9013922687072794e-05 -9.277938204596638e-06 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="upper leg casin_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.84999999999999998"/>
+<Diffuse r="1" g="1" b="1" a="0.84999999999999998"/>
+<Specular r="0.5" g="0.5" b="0.5" a="0.84999999999999998"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.84999999999999998"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Part>
+<Part name="upperleg" uid="upperleg*:*Default" version="557">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="upperleg.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.045683999999999982</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>5.9042762999999989e-05 8.4439260000000017e-06 5.9042762999999989e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="upperleg_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
